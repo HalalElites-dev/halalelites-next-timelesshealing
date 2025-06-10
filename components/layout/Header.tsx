@@ -1,0 +1,46 @@
+import { SITE_TITLE } from '@/lib/constants'
+import React from 'react'
+import { Button } from '../ui/button'
+import { Navigation } from './Navigation'
+import { ThemeToggle } from '../ThemeToggle'
+import { MobileMenu } from '@/components/layout/mobileMenu'
+
+export function Header() {
+    return (
+        <header className='sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60'>
+            <div className='container flex h-16 items-center justify-between m-auto'>
+
+                {/* left section: Site title or logo*/}
+                <a href="#">
+                <div className='flex items-center space-x-2'>
+                    <div className='h-8 w-8 rounded bg-primary'></div>
+                    <span className='text-xl font-bold '>{SITE_TITLE}</span>
+                </div>
+                </a>
+
+
+                {/* middle section: Desktop Navigation */}
+                <div className="hidden md:flex flex-grow justify-center"> 
+                    <Navigation />
+                </div>
+
+
+                {/* Right Section: Theme Toggle, CTA Button (Desktop) & Mobile Menu (Mobile) */}
+                <div className='flex items-center space-x-2'> 
+                    {/* Desktop Items */}
+                    <div className="hidden md:flex items-center space-x-2">
+                        <ThemeToggle />
+                        <Button>Get Started</Button>
+                    </div>
+
+                    {/* Mobile Menu Button */}
+                    <div className='md:hidden'>
+                        <MobileMenu />
+                    </div>
+                </div>
+
+
+            </div>
+        </header>
+    )
+}
