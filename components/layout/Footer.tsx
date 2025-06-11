@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Left section - Brand and description */}
           <div className="lg:col-span-1">
             <div className="flex items-center mb-4 gap-2">
-              <div className="h-8 w-8 rounded bg-primary"></div>
+              <div className="h-8 w-8 rounded bg-gradient-to-br from-brand-primary via-brand-accent to-brand-secondary"></div>
               <span className="text-xl font-bold">{SITE_TITLE}</span>
             </div>
             <p className="text-primary text-sm leading-relaxed mb-6 max-w-xs">{FOOTER_TEXT}</p>
@@ -23,7 +23,7 @@ const Footer = () => {
                   className="transition-colors"
                 >
                   <span className="sr-only">{link.name}</span>
-                  <link.icon className="h-5 w-5" />
+                  <link.icon className="h-5 w-5 text-primary" />
                 </Link>
               ))}
             </div>

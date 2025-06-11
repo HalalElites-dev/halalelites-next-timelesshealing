@@ -1,9 +1,11 @@
+'use client';
 import { SITE_TITLE } from '@/lib/constants'
 import React from 'react'
 import { Button } from '../ui/button'
 import { Navigation } from './Navigation'
 import { ThemeToggle } from '../ThemeToggle'
 import { MobileMenu } from '@/components/layout/mobileMenu'
+import { scrollToSection  } from '@/lib/utils'
 
 export function Header() {
         return (
@@ -11,9 +13,12 @@ export function Header() {
                 <div className='max-w-7xl flex h-16 items-center justify-between m-auto'>
 
                     {/* left section: Site title or logo*/}
-                    <a href="#">
+                    <a href="#" onClick={(e) => {
+                        e.preventDefault();
+                        scrollToSection('home');
+                    }}>
                     <div className='flex items-center space-x-2'>
-                        <div className='h-8 w-8 rounded bg-gradient-to-b from-brand-primary to-brand-secondary'></div>
+                        <div className='h-8 w-8 rounded bg-gradient-to-br from-brand-primary via-brand-accent to-brand-secondary'></div>
                         <span className='text-xl font-bold text-primary'>{SITE_TITLE}</span>
                     </div>
                     </a>

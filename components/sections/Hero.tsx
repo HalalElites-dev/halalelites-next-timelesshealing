@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 
 const Hero = () => {
     return (
-        <section id='#home' className='py-20 px-6 bg-background'>
+        <section id='home' className='py-20 px-6 bg-background'>
             <div className='max-w-7xl mx-auto'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-12 items-center'>
                     <div>

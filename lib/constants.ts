@@ -6,10 +6,10 @@ export const SITE_URL = 'https://halalelites.dev';
 
 // Navigation Links
 export const NAV_LINKS = [
-  { label: 'Home', href: '/' },
+  { label: 'Home', href: '#home' },
+  { label: 'About', href: '#about' },
   { label: 'Features', href: '#features' },
   { label: 'Pricing', href: '#pricing' },
-  { label: 'About', href: '#about' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -27,6 +27,23 @@ At HalalElites, we believe that productivity should be effortless. Our platform 
 
   Whether you're a freelancer, a small business owner, or part of a large team, HalalElites adapts to your workflow and enhances your productivity.
 `;
+export const ABOUT = [
+  {
+    title: 'Our Mission',
+    description: 'To empower individuals and teams to achieve their best work through innovative technology.',
+    icon: '🚀',
+  },
+  {
+    title: 'Our Vision',
+    description: 'A world where productivity is seamless and accessible to everyone.',
+    icon: '🌍',
+  },
+  {
+    title: 'Our Values',
+    description: 'Integrity, innovation, and customer-centricity are at the core of everything we do.',
+    icon: '💡',
+  },
+]
 // Contact Section
 export const CONTACT_HEADING = 'Get in Touch';
 export const CONTACT_SUBTEXT = 'We would love to hear from you! Reach out with any questions or feedback.';
@@ -37,15 +54,18 @@ export const CONTACT_EMAIL = 'support@halalelites.com';
 export const TESTIMONIALS = [
   {
     quote: "halalElites has transformed the way I work. I'm more organized and focused than ever!",
-    author: "Habeeb, CEO of halalElites"
+    author: "Habeeb",
+    role:   "CEO of halalElites"
   },
   {
     quote: "The AI suggestions are a game changer. They help me prioritize tasks effectively.",
-    author: "Mr X, Freelance Designer"
+    author: "Mr X",
+    role:   "Freelance Designer"
   },
   {
     quote: "I love the smart scheduling feature! It takes the stress out of planning my day.",
-    author: "Ibrahim, Project Manager"
+    author: "Ibrahim",
+    role:   "Project Manager"
   }
 ];
 
@@ -66,6 +86,53 @@ export const FEATURES = [
     title: 'Reminders & Alerts',
     description: 'Never miss a task with intelligent reminders and alerts.',
   },
+];
+
+
+// Services Section
+export const SERVICES_HEADING = 'Our Services';
+export const SERVICES_SUBTEXT = 'We offer a range of services to help you maximize your productivity and achieve your goals.';
+export const SERVICES = [
+  {
+    title: 'Web Development',
+    description: 'Custom web applications tailored to your business needs.',
+    icon: '🌐',
+    features: [
+      'Responsive design',
+      'Modern frameworks',
+      'SEO optimization'
+    ]
+  },
+  {
+    title: 'AI-Powered Insights',
+    description: 'Leverage AI to gain insights into your productivity patterns and improve efficiency.',
+    icon: '💡',
+    features: [
+      'Pattern recognition',
+      'Automated reporting',
+      'Predictive analytics'
+    ]
+  },
+  {
+    title: 'Collaboration Tools',
+    description: 'Work seamlessly with your team using our collaboration features.',
+    icon: '🤝',
+    features: [
+      'Real-time sync',
+      'Team workspaces',
+      'Communication tools'
+    ]
+  },
+  {
+    title: 'Data Analytics',
+    description: 'Analyze your productivity data to make informed decisions.',
+    icon: '📊',
+    features: [
+      'Custom dashboards',
+      'Data visualization',
+      'Performance metrics'
+    ]
+  }
 ];
 
 // Pricing Plans (if applicable)
