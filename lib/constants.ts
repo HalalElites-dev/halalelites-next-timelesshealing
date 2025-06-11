@@ -1,4 +1,4 @@
-import { X, Github, Linkedin, LucideIcon} from "lucide-react";
+import { X, Github, Linkedin, LucideIcon } from "lucide-react";
 // Site Metadata
 export const SITE_TITLE = 'HalalElites';
 export const SITE_TAGLINE = 'Boost your productivity with AI-powered tools.';
@@ -15,17 +15,17 @@ export const NAV_LINKS = [
 
 // Hero Section
 export const HERO_HEADING = 'Work smarter, not harder.';
-export const HERO_SUBTEXT = 'halalElites helps you stay organized and get more done with less effort.';
+export const HERO_SUBTEXT = 'HalalElites helps you stay organized and get more done with less effort.';
 export const HERO_CTA_TEXT = 'Start Free Trial';
 export const HERO_CTA_LINK = '/signup';
 
 // About Section
-export const ABOUT_HEADING = 'About halalElites';
-export const ABOUT_SUBTEXT = 'halalElites is an innovative platform designed to enhance productivity through AI-driven tools and features.';
+export const ABOUT_HEADING = 'About HalalElites';
+export const ABOUT_SUBTEXT = 'HalalElites is an innovative platform designed to enhance productivity through AI-driven tools and features.';
 export const ABOUT_CONTENT = `
-  At halalElites, we believe that productivity should be effortless. Our platform combines advanced AI technology with intuitive design to help you manage tasks, set priorities, and achieve your goals efficiently.
+At HalalElites, we believe that productivity should be effortless. Our platform combines advanced AI technology with intuitive design to help you manage tasks, set priorities, and achieve your goals efficiently.
 
-  Whether you're a freelancer, a small business owner, or part of a large team, halalElites adapts to your workflow and enhances your productivity.
+  Whether you're a freelancer, a small business owner, or part of a large team, HalalElites adapts to your workflow and enhances your productivity.
 `;
 // Contact Section
 export const CONTACT_HEADING = 'Get in Touch';
@@ -109,7 +109,7 @@ export const SOCIAL_LINKS: { name: string; url: string; icon: LucideIcon }[] = [
   },
 ];
 
-// HOW TO USE 
+// HOW TO USE
 // components/sections/Contact.tsx
 // import { SITE_CONFIG } from '@/lib/constants'
 
