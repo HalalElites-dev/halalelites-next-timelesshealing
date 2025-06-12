@@ -1,4 +1,5 @@
 import { X, Github, Linkedin, LucideIcon } from "lucide-react";
+
 // Site Metadata
 export const SITE_TITLE = 'HalalElites';
 export const SITE_TAGLINE = 'Boost your productivity with AI-powered tools.';
@@ -97,9 +98,9 @@ export const SERVICES_HEADING = 'Our Services';
 export const SERVICES_SUBTEXT = 'We offer a range of services to help you maximize your productivity and achieve your goals.';
 export const SERVICES = [
   {
+    number: 'I',
     title: 'Web Development',
     description: 'Custom web applications tailored to your business needs.',
-    icon: '🌐',
     features: [
       'Responsive design',
       'Modern frameworks',
@@ -107,9 +108,9 @@ export const SERVICES = [
     ]
   },
   {
+    number: 'II',
     title: 'AI-Powered Insights',
     description: 'Leverage AI to gain insights into your productivity patterns and improve efficiency.',
-    icon: '💡',
     features: [
       'Pattern recognition',
       'Automated reporting',
@@ -117,9 +118,9 @@ export const SERVICES = [
     ]
   },
   {
+    number: 'III',
     title: 'Collaboration Tools',
     description: 'Work seamlessly with your team using our collaboration features.',
-    icon: '🤝',
     features: [
       'Real-time sync',
       'Team workspaces',
@@ -127,9 +128,9 @@ export const SERVICES = [
     ]
   },
   {
+    number: 'IV',
     title: 'Data Analytics',
     description: 'Analyze your productivity data to make informed decisions.',
-    icon: '📊',
     features: [
       'Custom dashboards',
       'Data visualization',
