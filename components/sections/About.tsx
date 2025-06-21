@@ -1,5 +1,6 @@
 import React from 'react'
 import { ABOUT, ABOUT_HEADING, ABOUT_SUBTEXT } from '@/lib/constants'
+import Image from 'next/image'
 
 const About = () => {
   return (
@@ -12,18 +13,34 @@ const About = () => {
           </p>
         </div>
 
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
-          {ABOUT.map((about, index) => (
-          <div key={index} className='bg-background p-8 rounded-lg shadow-sm border border-border'>
-            <div className='w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-6'>
-              <span className='text-2xl text-primary-foreground'>{about.icon}</span>
+        <div className="space-y-24">
+          {ABOUT.map((item, index) => (
+            <div 
+              key={index}
+              className={`flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} gap-8 md:gap-16 items-center`}
+            >
+              {/* Image/Visual side */}
+              <div className="w-full md:w-1/2">
+                <div className="relative">
+                  <div className="aspect-[4/3] rounded-lg overflow-hidden bg-gradient-to-br from-brand-primary/20 to-brand-secondary/20 flex items-center justify-center">
+                    <div className="w-20 h-20 rounded-full bg-background flex items-center justify-center">
+                      <span className="text-4xl">{item.icon}</span>
+                    </div>
+                  </div>
+                  {/* Timeline connector - only show if not the last item */}
+                  {index < ABOUT.length - 1 && (
+                    <div className="absolute h-24 w-0.5 bg-border left-1/2 -bottom-24 transform -translate-x-1/2 hidden md:block"></div>
+                  )}
+                </div>
+              </div>
+              
+              {/* Content side */}
+              <div className="w-full md:w-1/2">
+                <h3 className="text-2xl font-bold mb-4">{item.title}</h3>
+                <p className="text-muted-foreground">{item.description}</p>
+              </div>
             </div>
-
-            <h3 className='text-xl font-semibold text-foreground mb-3'>{about.title}</h3>
-            <p className='text-muted-foreground mb-6'>{about.description}</p>
-
-          </div>
-        ))}
+          ))}
         </div>
       </div>
     </section>

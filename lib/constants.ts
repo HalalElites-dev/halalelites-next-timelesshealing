@@ -21,7 +21,7 @@ export const HERO_CTA_TEXT = 'Start Free Trial';
 export const HERO_CTA_LINK = '/signup';
 
 // About Section
-export const ABOUT_HEADING = 'About HalalElites';
+export const ABOUT_HEADING = 'How It Started';
 export const ABOUT_SUBTEXT = 'HalalElites is an innovative platform designed to enhance productivity through AI-driven tools and features.';
 export const ABOUT_CONTENT = `
 At HalalElites, we believe that productivity should be effortless. Our platform combines advanced AI technology with intuitive design to help you manage tasks, set priorities, and achieve your goals efficiently.
@@ -94,11 +94,10 @@ export const FEATURES = [
 
 
 // Services Section
-export const SERVICES_HEADING = 'Our Services';
+export const SERVICES_HEADING = 'How We Work';
 export const SERVICES_SUBTEXT = 'We offer a range of services to help you maximize your productivity and achieve your goals.';
 export const SERVICES = [
   {
-    number: 'I',
     title: 'Web Development',
     description: 'Custom web applications tailored to your business needs.',
     features: [
@@ -108,7 +107,6 @@ export const SERVICES = [
     ]
   },
   {
-    number: 'II',
     title: 'AI-Powered Insights',
     description: 'Leverage AI to gain insights into your productivity patterns and improve efficiency.',
     features: [
@@ -118,7 +116,7 @@ export const SERVICES = [
     ]
   },
   {
-    number: 'III',
+   
     title: 'Collaboration Tools',
     description: 'Work seamlessly with your team using our collaboration features.',
     features: [
@@ -128,7 +126,6 @@ export const SERVICES = [
     ]
   },
   {
-    number: 'IV',
     title: 'Data Analytics',
     description: 'Analyze your productivity data to make informed decisions.',
     features: [

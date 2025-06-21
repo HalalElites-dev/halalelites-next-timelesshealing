@@ -1,6 +1,7 @@
 import React from 'react'
 import { HERO_HEADING, HERO_SUBTEXT, HERO_CTA_TEXT, HERO_CTA_LINK } from '@/lib/constants'
 import { Button } from '@/components/ui/button'
+import  Link  from "next/link"
 
 const Hero = () => {
     return (
@@ -11,8 +12,8 @@ const Hero = () => {
                         <h1 className='text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 text-foreground'>{HERO_HEADING}</h1>
                         <p className='text-xl mb-8 max-w-lg text-muted-foreground'>{HERO_SUBTEXT}</p>
                         <div className=' flex flex-col sm:flex-row gap-4'>
-                            <Button size={'lg'} className='bg-primary hover:text-primary-foreground text-secondary'>
-                                {HERO_CTA_TEXT}
+                            <Button size={'lg'} className='bg-primary hover:text-primary-foreground text-secondary' >
+                                <Link href={"/booking"}>{HERO_CTA_TEXT}</Link>
                             </Button>
                             <Button variant='outline' size={'lg'} className='bg-secondary text-primary hover:text-secondary-foreground'>
                                 <a href={HERO_CTA_LINK} target='_blank' rel='noopener noreferrer'>Learn More</a>
@@ -20,7 +21,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className="relative h-[400px] lg:h-[500px] rounded-lg overflow-hidden bg-secondary flex items-center justify-center">
-                        <div className="absolute inset-0 flex items-center justify-center">
+                        <div className="absolute inset-0 flex items-center justify-center ">
                             <div className="w-3/4 h-3/4 bg-muted rounded-lg flex items-center justify-center">
                                 <svg
                                     className="w-24 h-24 "
