@@ -1,4 +1,4 @@
-import { X, Github, Linkedin, LucideIcon } from "lucide-react";
+import { X, Github, Linkedin, LucideIcon, Target, Eye, Heart } from "lucide-react";
 
 // Site Metadata
 export const SITE_TITLE = 'HalalElites';
@@ -32,17 +32,17 @@ export const ABOUT = [
   {
     title: 'Our Mission',
     description: 'To empower individuals and teams to achieve their best work through innovative technology.',
-    icon: '🚀',
+    icon: Target,
   },
   {
     title: 'Our Vision',
     description: 'A world where productivity is seamless and accessible to everyone.',
-    icon: '🌍',
+    icon: Eye,
   },
   {
     title: 'Our Values',
     description: 'Integrity, innovation, and customer-centricity are at the core of everything we do.',
-    icon: '💡',
+    icon: Heart,
   },
 ]
 // Contact Section
@@ -133,7 +133,26 @@ export const SERVICES = [
       'Data visualization',
       'Performance metrics'
     ]
+  },
+  {
+    title: 'Service 5',
+    description: 'description 5.',
+    features: [
+      'feature 1',
+      'feature 2',
+      'feature 3'
+    ]
+  },
+  {
+    title: 'Service 6',
+    description: 'description 6',
+    features: [
+      'feature 1',
+      'feature 2',
+      'feature 3'
+    ]
   }
+  
 ];
 
 // Pricing Plans (if applicable)
@@ -176,17 +195,3 @@ export const SOCIAL_LINKS: { name: string; url: string; icon: LucideIcon }[] = [
     icon: Linkedin,
   },
 ];
-
-// HOW TO USE
-// components/sections/Contact.tsx
-// import { SITE_CONFIG } from '@/lib/constants'
-
-// export function Contact() {
-//   return (
-//     <section>
-//       <h2>Contact {SITE_CONFIG.name}</h2>
-//       <p>Phone: {SITE_CONFIG.contact.phone}</p>
-//       <p>Email: {SITE_CONFIG.contact.email}</p>
-//     </section>
-//   )
-// }
