@@ -8,7 +8,7 @@ This is the base starter template for HalalElites projects — clean, modern, an
 ---
 
 ##  Getting Started
-
+````
 ### 1. Clone the Repository
 
 ```bash
@@ -72,7 +72,7 @@ npm run dev
 * **clsx, prettier, husky, lint-staged**
 
 ---
-
+````
 Just clone this repo and modify the section components and assets as needed.
 
 
