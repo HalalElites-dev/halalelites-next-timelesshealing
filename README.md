@@ -4,11 +4,11 @@ This template is aimed for agencies or startups.
 
 To use:
 
-Clone the project
+```Clone the project
 
-Npm i to install any dependencies
+npm install
 
-run
+npm run dev
 
 
-
+```
