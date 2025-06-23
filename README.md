@@ -50,7 +50,7 @@ npm run dev
 
 ## Features
 
-* Modern **App Router structure** (Next.js 13+)
+* Modern **App Router structure** (Next.js 15+)
 * Fully responsive layout
 * Dark mode support
 * Component-based section design
