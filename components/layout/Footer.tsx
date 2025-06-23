@@ -23,7 +23,7 @@ const Footer = () => {
                   className="transition-colors"
                 >
                   <span className="sr-only">{link.name}</span>
-                  <link.icon className="h-5 w-5 text-primary" />
+                  <link.icon className="h-5 w-5 text-primary " />
                 </Link>
               ))}
             </div>
@@ -36,22 +36,22 @@ const Footer = () => {
               <h3 className="font-semibold text-primary mb-4">Products</h3>
               <ul className="space-y-3">
                 <li>
-                  <Link href="/features" className=" hover:text-primary transition-colors text-sm">
+                  <Link href="/features" className=" hover:text-primary transition-colors text-sm hover:underline">
                     Features
                   </Link>
                 </li>
                 <li>
-                  <Link href="/pricing" className=" hover:text-primary transition-colors text-sm">
+                  <Link href="/pricing" className=" hover:text-primary transition-colors text-sm hover:underline">
                     Pricing
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog" className=" hover:text-primary transition-colors text-sm">
+                  <Link href="/blog" className=" hover:text-primary transition-colors text-sm hover:underline">
                     Blog
                   </Link>
                 </li>
                 <li>
-                  <Link href="/support" className=" hover:text-primary transition-colors text-sm">
+                  <Link href="/support" className=" hover:text-primary transition-colors text-sm hover:underline">
                     Support
                   </Link>
                 </li>
@@ -63,22 +63,22 @@ const Footer = () => {
               <h3 className="font-semibold text-primary mb-4">Resources</h3>
               <ul className="space-y-3">
                 <li>
-                  <Link href="/docs" className=" hover:text-primary transition-colors text-sm">
+                  <Link href="/docs" className=" hover:text-primary transition-colors text-sm hover:underline">
                     Documentation
                   </Link>
                 </li>
                 <li>
-                  <Link href="/tutorials" className=" hover:text-primary transition-colors text-sm">
+                  <Link href="/tutorials" className=" hover:text-primary transition-colors text-sm hover:underline">
                     Tutorials
                   </Link>
                 </li>
                 <li>
-                  <Link href="/help" className=" hover:text-primary transition-colors text-sm">
+                  <Link href="/help" className=" hover:text-primary transition-colors text-sm hover:underline">
                     Help Center
                   </Link>
                 </li>
                 <li>
-                  <Link href="/api" className=" hover:text-primary transition-colors text-sm">
+                  <Link href="/api" className=" hover:text-primary transition-colors text-sm hover:underline">
                     API
                   </Link>
                 </li>
@@ -90,22 +90,22 @@ const Footer = () => {
               <h3 className="font-semibold text-primary mb-4">Company</h3>
               <ul className="space-y-3">
                 <li>
-                  <Link href="/about" className=" hover:text-primary transition-colors text-sm">
+                  <Link href="/about" className=" hover:text-primary transition-colors text-sm hover:underline">
                     About Us
                   </Link>
                 </li>
                 <li>
-                  <Link href="/careers" className=" hover:text-primary transition-colors text-sm">
+                  <Link href="/careers" className=" hover:text-primary transition-colors text-sm hover:underline">
                     Careers
                   </Link>
                 </li>
                 <li>
-                  <Link href="/press" className=" hover:text-primary transition-colors text-sm">
+                  <Link href="/press" className=" hover:text-primary transition-colors text-sm hover:underline">
                     Press
                   </Link>
                 </li>
                 <li>
-                  <Link href="/contact" className=" hover:text-primary transition-colors text-sm">
+                  <Link href="/contact" className=" hover:text-primary transition-colors text-sm hover:underline">
                     Contact
                   </Link>
                 </li>
