@@ -65,7 +65,7 @@ const Contact = () => {
                             </div>
                             <div>
                                 <label htmlFor="message" className='block text-sm font-medium text-foreground mb-1'>Message</label>
-                                <textarea id="message" rows={4} className='w-full min-h-[120px] h-24 px-3 py-2 ring-accent bg-background rounded-md border border-border text-foreground' />
+                                <textarea id="message" rows={4} className='w-full min-h-[120px] h-24 px-3 py-2 ring-accent bg-background rounded-md border border-border text-foreground resize-none' />
                             </div>
                             <Button type="submit" className='w-full bg-primary text-primary-foreground hover:bg-popover-foreground'>
                                 Send Message

@@ -90,7 +90,7 @@
 
   /* Status Colors */
   --destructive: oklch(0.577 0.245 27.325); /* Error/danger color - delete buttons, error messages */
-  --destructive-foreground: oklch(1 0 0); /* White text on destructive background - ADDED */
+  --destructive-foreground: oklch(1 0 0); /* White text on destructive background - ADDED * adjusting/ 
 
   /* Form & Border Colors */
   --border: oklch(0.898 0 0); /* All borders - cards, inputs, dividers */
