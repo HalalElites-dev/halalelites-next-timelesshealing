@@ -39,7 +39,7 @@ npm run dev
 ├── components/         # Reusable components
 │   ├── layout/         # Header, Footer, Navigation
 │   ├── sections/       # Page-specific sections (Hero, About, Services, etc.)
-│   └── ui/             # Atomic UI components (Button, Input, etc.)
+│   └── ui/             # UI components (Button, Input, etc.)
 ├── lib/                # Constants and utility functions
 ├── public/             # Static assets (images, icons)
 ├── globals.css         # Global styles and CSS variables
