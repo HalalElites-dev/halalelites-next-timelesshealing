@@ -21,7 +21,7 @@ export function Header() {
   }, [])
 
   return (
-    <header className="sticky top-0 z-40 w-full bg-white shadow-md">
+    <header className="sticky top-0 left-0 right-0 z-40 w-full bg-white shadow-md">
       <div className="flex">
         {/* Logo Area */}
         <div
@@ -42,7 +42,8 @@ export function Header() {
               alt="Timeless Healing Logo"
               width={220}
               height={50}
-              className="h-auto w-auto  max-h-12 lg:max-h-16 transition-all duration-300"
+
+              className={`h-auto w-auto  max-h-12  ${isScrolled ? "md:max-h-16 " : "md:max-h-37 "} transition-all duration-300`}
             />
           </a>
         </div>

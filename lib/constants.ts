@@ -91,66 +91,40 @@ export const FEATURES = [
 
 
 // Services Section
-export const SERVICES_HEADING = 'Our Services';
-export const SERVICES_SUBTEXT = 'We offer a range of services to help you maximize your productivity and achieve your goals.';
+export const SERVICES_HEADING = "Our Services"
+export const SERVICES_SUBTEXT =
+  "Our Hijama services are designed to promote healing and well-being."
+
 export const SERVICES = [
   {
-    title: 'Web Development',
-    description: 'Custom web applications tailored to your business needs.',
-    features: [
-      'Responsive design',
-      'Modern frameworks',
-      'SEO optimization'
-    ]
+    title: "Basic Hijama",
+    description: "A traditional cupping therapy session to promote healing and well-being.",
+    price: "$75",
+    session: "60 minutes",
+    tags: ["Traditional", "Healing", "Wellness"],
   },
   {
-    title: 'AI-Powered Insights',
-    description: 'Leverage AI to gain insights into your productivity patterns and improve efficiency.',
-    features: [
-      'Pattern recognition',
-      'Automated reporting',
-      'Predictive analytics'
-    ]
+    title: "Premium Hijama",
+    description: "A comprehensive cupping therapy session with advanced techniques for enhanced healing.",
+    price: "$100",
+    session: "90 minutes",
+    tags: ["Advanced", "Comprehensive", "Enhanced"],
   },
   {
-   
-    title: 'Collaboration Tools',
-    description: 'Work seamlessly with your team using our collaboration features.',
-    features: [
-      'Real-time sync',
-      'Team workspaces',
-      'Communication tools'
-    ]
+    title: "Dry Cupping",
+    description: "A specialized cupping therapy technique that focuses on specific areas for targeted relief.",
+    price: "$50",
+    session: "60 minutes",
+    tags: ["Specialized", "Targeted", "Relief"],
   },
   {
-    title: 'Data Analytics',
-    description: 'Analyze your productivity data to make informed decisions.',
-    features: [
-      'Custom dashboards',
-      'Data visualization',
-      'Performance metrics'
-    ]
+    title: "Consultation",
+    description: "Professional consultation to determine the best treatment plan for your specific needs.",
+    price: "$25",
+    session: "30 minutes",
+    tags: ["Assessment", "Planning", "Personalized"],
   },
-  {
-    title: 'Service 5',
-    description: 'description 5.',
-    features: [
-      'feature 1',
-      'feature 2',
-      'feature 3'
-    ]
-  },
-  {
-    title: 'Service 6',
-    description: 'description 6',
-    features: [
-      'feature 1',
-      'feature 2',
-      'feature 3'
-    ]
-  }
-  
-];
+]
 
 // Pricing Plans (if applicable)
 export const PRICING_PLANS = [
