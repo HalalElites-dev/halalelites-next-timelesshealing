@@ -54,17 +54,17 @@ export const CONTACT_ADDRESS = '123 HalalElites St, Suite 100, City, Country';
 
 export const TESTIMONIALS = [
   {
-    quote: "halalElites has transformed the way I work. I'm more organized and focused than ever!",
+    quote: "Timeless Healing has changed my life. The Hijama sessions are incredibly relaxing and effective.",
     author: "Habeeb",
-    role:   "CEO of halalElites"
+    role:   "Business Analyst"
   },
   {
-    quote: "The AI suggestions are a game changer. They help me prioritize tasks effectively.",
+    quote: "The Hijama sessions at Timeless Healing are a must-try! I felt so rejuvenated afterward.",
     author: "Mr X",
     role:   "Freelance Designer"
   },
   {
-    quote: "I love the smart scheduling feature! It takes the stress out of planning my day.",
+    quote: "I always feel so refreshed after my sessions at Timeless Healing.",
     author: "Ibrahim",
     role:   "Project Manager"
   }
