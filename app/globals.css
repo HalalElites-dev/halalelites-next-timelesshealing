@@ -67,7 +67,7 @@
   /* ===== LIGHT MODE COLORS ===== */
 
   /* Main Page Colors */
-  --background: oklch(1 0 0); /* Main page background (pure white) */
+  --background: #f0f0f0; /* Main page background (off white white) */
   --foreground: oklch(0.145 0 0); /* Main text color (dark gray/black) */
 
   /* Card & Modal Colors */
@@ -97,66 +97,12 @@
   --input: oklch(0.898 0 0); /* Input field borders */
   --ring: oklch(0.145 0 0); /* Focus ring color around focused elements */
 
-  /* Chart/Data Visualization Colors */
-  --chart-1: oklch(0.646 0.222 41.116); /* First data series color */
-  --chart-2: oklch(0.6 0.118 184.704); /* Second data series color */
-  --chart-3: oklch(0.398 0.07 227.392); /* Third data series color */
-  --chart-4: oklch(0.828 0.189 84.429); /* Fourth data series color */
-  --chart-5: oklch(0.769 0.188 70.08); /* Fifth data series color */
-
   /* Client Customization Colors */
-  --brand-primary: oklch(0.65 0.18 200); /* Cyan blue (top of gradient) */
-  --brand-secondary: oklch(0.55 0.22 280); /* Purple (bottom of gradient) */
-  --brand-accent: oklch(0.6 0.2 240); /* Middle gradient color */
+  --brand-primary: #FFD700; /* Gold accent */
+
 
   /* Typography */
   --font-heading: "Inter", ui-sans-serif, system-ui, sans-serif;
-}
-
-/* ===== DARK MODE COLORS ===== */
-.dark {
-  /* Main Page Colors - Dark Mode */
-  --background: oklch(0.145 0 0); /* Dark background (almost black) */
-  --foreground: oklch(0.985 0 0); /* Light text color (almost white) */
-
-  /* Card & Modal Colors - Dark Mode */
-  --card: oklch(0.205 0 0); /* Slightly lighter than background for cards */
-  --card-foreground: oklch(0.985 0 0); /* Light text on dark cards */
-  --popover: oklch(0.205 0 0); /* Dark popover background */
-  --popover-foreground: oklch(0.985 0 0); /* Light text in popovers */
-
-  /* Brand & Interactive Colors - Dark Mode */
-  --primary: oklch(0.922 0 0); /* Light primary color (inverted from light mode) */
-  --primary-foreground: oklch(0.205 0 0); /* Dark text on light primary background */
-
-  /* Subtle Background Colors - Dark Mode with DISTINCTION */
-  --secondary: oklch(0.22 0 0); /* Dark gray */
-  --secondary-foreground: oklch(0.985 0 0); /* Light text */
-  --muted: oklch(0.269 0 0); /* Darker gray - DIFFERENT from secondary */
-  --muted-foreground: oklch(0.708 0 0); /* Medium gray text */
-  --accent: oklch(0.18 0 0); /* Even darker accent */
-  --accent-foreground: oklch(0.985 0 0); /* Light text on accent */
-
-  /* Status Colors - Dark Mode */
-  --destructive: oklch(0.704 0.191 22.216); /* Brighter red for dark backgrounds */
-  --destructive-foreground: oklch(0.985 0 0); /* Light text on destructive - ADDED */
-
-  /* Form & Border Colors - Dark Mode */
-  --border: oklch(1 0 0 / 10%); /* Subtle light borders (10% opacity) */
-  --input: oklch(1 0 0 / 15%); /* Slightly more visible input borders (15% opacity) */
-  --ring: oklch(0.556 0 0); /* Medium gray focus rings */
-
-  /* Chart Colors - Dark Mode (adjusted for dark backgrounds) */
-  --chart-1: oklch(0.488 0.243 264.376); /* Brighter chart colors for visibility */
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-
-  /* Client Brand Colors - Dark Mode */
-  --brand-primary: oklch(0.7 0.18 200); /* Slightly brighter cyan for dark mode */
-  --brand-secondary: oklch(0.6 0.22 280); /* Slightly brighter purple */
-  --brand-accent: oklch(0.65 0.2 240); /* Slightly brighter accent */
 }
 
 /* ===== BASE STYLES ===== */

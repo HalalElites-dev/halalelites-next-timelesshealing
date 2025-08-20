@@ -1,6 +1,6 @@
 import Link from "next/link"
-import { FOOTER_TEXT, SITE_TITLE, SOCIAL_LINKS, FOOTER_LINKS } from "@/lib/constants"
-
+import { FOOTER_TEXT, SOCIAL_LINKS, FOOTER_LINKS } from "@/lib/constants"
+import Image from "next/image"
 const Footer = () => {
   return (
     <footer className="border-t py-12 px-6">
@@ -9,8 +9,12 @@ const Footer = () => {
           {/* Left section - Brand and description */}
           <div className="lg:col-span-1">
             <div className="flex items-center mb-4 gap-2">
-              <div className="h-8 w-8 rounded bg-gradient-to-br from-brand-primary via-brand-accent to-brand-secondary"></div>
-              <span className="text-xl font-bold">{SITE_TITLE}</span>
+              <Image
+                src="/timelesshealing.png"
+                alt="Timeless Healing Logo"
+                width={44}
+                height={44}
+              />
             </div>
             <p className="text-primary text-sm leading-relaxed mb-6 max-w-xs">{FOOTER_TEXT}</p>
             <div className="flex items-center gap-4">
@@ -116,7 +120,7 @@ const Footer = () => {
 
         {/* Bottom section - Fixed: Moved outside the main grid */}
         <div className="flex flex-col sm:flex-row justify-between items-center pt-8 mt-8 border-t border-accent-foreground">
-          <p className="text-sm  mb-4 sm:mb-0">© 2025 {SITE_TITLE}. All rights reserved.</p>
+          <p className="text-sm  mb-4 sm:mb-0">© 2025 Timeless Healing. All rights reserved.</p>
           <div className="flex items-center gap-6">
             {FOOTER_LINKS.map((link) => (
               <Link

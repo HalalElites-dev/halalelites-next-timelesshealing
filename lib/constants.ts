@@ -1,32 +1,27 @@
 import { X, Github, Linkedin, LucideIcon, Target, Eye, Heart } from "lucide-react";
 
-// Site Metadata
-export const SITE_TITLE = 'HalalElites';
-export const SITE_TAGLINE = 'Boost your productivity with AI-powered tools.';
-export const SITE_URL = 'https://halalelites.dev';
 
 // Navigation Links
 export const NAV_LINKS = [
-  { label: 'Home', href: '#home' },
-  { label: 'About', href: '#about' },
-  { label: 'Services', href: '#services' },
-  { label: 'Testimonials', href: '#testimonials' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'ABOUT', href: '#about' },
+  { label: 'SERVICES', href: '#services' },
+  { label: 'TESTIMONIALS', href: '#testimonials' },
+  { label: 'CONTACT', href: '#contact' },
 ];
 
 // Hero Section
-export const HERO_HEADING = 'Work smarter, not harder.';
-export const HERO_SUBTEXT = 'HalalElites helps you stay organized and get more done with less effort.';
-export const HERO_CTA_TEXT = 'Start Free Trial';
-export const HERO_CTA_LINK = '/signup';
+export const HERO_HEADING = 'Timeless Healing Hijama Therapy';
+export const HERO_SUBTEXT = 'Experience the healing power of cupping therapy rooted in Sunnah tradition. Professional, safe, and spiritually grounded wellness treatments.';
+export const HERO_CTA_TEXT = 'Book Appointment';
+export const HERO_CTA_LINK = 'https://calendly.com/timelesshealingllc/30min';
 
 // About Section
-export const ABOUT_HEADING = 'How It Started';
-export const ABOUT_SUBTEXT = 'HalalElites is an innovative platform designed to enhance productivity through AI-driven tools and features.';
+export const ABOUT_HEADING = 'About Timeless Healing Hijama';
+export const ABOUT_SUBTEXT = 'At Timeless Healing, we offer Hijama, or cupping therapy, a traditional healing practice rooted in Sunnah. It involves creating suction on the skin to promote healing and well-being.';
 export const ABOUT_CONTENT = `
-At HalalElites, we believe that productivity should be effortless. Our platform combines advanced AI technology with intuitive design to help you manage tasks, set priorities, and achieve your goals efficiently.
+At Timeless Healing, we believe in the power of Hijama to restore balance and promote holistic health. Our trained practitioners use safe and effective techniques to provide a rejuvenating experience.
 
-  Whether you're a freelancer, a small business owner, or part of a large team, HalalElites adapts to your workflow and enhances your productivity.
+Whether you're seeking relief from pain, stress reduction, or overall wellness, Hijama can be a valuable part of your health journey.
 `;
 export const ABOUT = [
   {
