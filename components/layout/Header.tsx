@@ -30,7 +30,6 @@ export function Header() {
         >
           <Link
             href="/"
-            
             className="flex-shrink-0"
           >
             <Image

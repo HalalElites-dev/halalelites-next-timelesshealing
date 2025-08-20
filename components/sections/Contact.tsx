@@ -2,8 +2,9 @@ import { CONTACT_ADDRESS, CONTACT_EMAIL, CONTACT_HEADING, CONTACT_PHONE, CONTACT
 import React from 'react'
 import { Mail, MapPin, Phone } from 'lucide-react'
 import { Button } from '../ui/button'
+import Link from 'next/link'
 const Contact = () => {
-     return (
+    return (
         <section id='contact' className='py-20 px-6 bg-background'>
             <div className='max-w-7xl mx-auto'>
                 {/* Main grid container for a 2-column layout on large screens */}
@@ -42,6 +43,17 @@ const Contact = () => {
                                     <h3 className='text-lg font-semibold text-foreground'>Phone</h3>
                                     <p className='text-muted-foreground'>{CONTACT_PHONE}</p>
                                 </div>
+                            </div>
+                            <div>
+                                <Button className="hidden lg:block bg-primary hover:bg-primary/90 text-white font-bold px-6 py-3 text-lg">
+                                    <Link
+                                        className="flex w-full h-full items-center justify-center"
+                                        href="https://calendly.com/timelesshealingllc/30min"
+                                        target="_blank"
+                                    >
+                                        Book via Calendly
+                                    </Link>
+                                </Button>
                             </div>
                         </div>
                     </div>

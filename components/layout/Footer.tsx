@@ -1,10 +1,10 @@
 import Link from "next/link"
-import { FOOTER_TEXT, SOCIAL_LINKS, FOOTER_LINKS } from "@/lib/constants"
+import { FOOTER_TEXT, FOOTER_LINKS } from "@/lib/constants"
 import Image from "next/image"
 const Footer = () => {
   return (
     <footer className="border-t py-12 px-6">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Left section - Brand and description */}
           <div className="lg:col-span-1">
@@ -17,7 +17,7 @@ const Footer = () => {
               />
             </div>
             <p className="text-primary text-sm leading-relaxed mb-6 max-w-xs">{FOOTER_TEXT}</p>
-            <div className="flex items-center gap-4">
+            {/* <div className="flex items-center gap-4">
               {SOCIAL_LINKS.map((link) => (
                 <Link
                   key={link.name}
@@ -30,7 +30,7 @@ const Footer = () => {
                   <link.icon className="h-5 w-5 text-primary " />
                 </Link>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* Navigation Columns */}
