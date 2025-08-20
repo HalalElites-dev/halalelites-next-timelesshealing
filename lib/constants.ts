@@ -18,8 +18,8 @@ export const HERO_CTA_TEXT = 'Book Appointment';
 export const HERO_CTA_LINK = 'https://calendly.com/timelesshealingllc/30min';
 
 // About Section
-export const ABOUT_HEADING = 'About Timeless Healing Hijama';
-export const ABOUT_SUBTEXT = 'At Timeless Healing, we offer Hijama, or cupping therapy, a traditional healing practice rooted in Sunnah. It involves creating suction on the skin to promote healing and well-being.';
+export const ABOUT_HEADING = 'Healing Through Sunnah';
+export const ABOUT_SUBTEXT = 'Timeless Healing, we offer Hijama, or cupping therapy, a traditional healing practice rooted in Sunnah. It involves creating suction on the skin to promote healing and well-being.';
 export const ABOUT_CONTENT = `
 At Timeless Healing, we believe in the power of Hijama to restore balance and promote holistic health. Our trained practitioners use safe and effective techniques to provide a rejuvenating experience.
 
