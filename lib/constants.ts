@@ -7,10 +7,12 @@ export const NAV_LINKS = [
   { label: 'SERVICES', href: '#services' },
   { label: 'TESTIMONIALS', href: '#testimonials' },
   { label: 'CONTACT', href: '#contact' },
-];
+  { label: 'WHAT IS HIJAMA?', href: '/hijama' },
+  { label: 'FAQ', href: '/faq' },
+]
 
 // Hero Section
-export const HERO_HEADING = 'Timeless Healing Hijama Therapy';
+export const HERO_HEADING = 'Traditional Hijama Therapy ';
 export const HERO_SUBTEXT = 'Experience the healing power of cupping therapy rooted in Sunnah tradition. Professional, safe, and spiritually grounded wellness treatments.';
 export const HERO_CTA_TEXT = 'Book Appointment';
 export const HERO_CTA_LINK = 'https://calendly.com/timelesshealingllc/30min';

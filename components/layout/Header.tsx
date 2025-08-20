@@ -6,8 +6,9 @@ import Link from "next/link"
 import { Button } from "../ui/button"
 import { scrollToSection } from "@/lib/utils"
 import { Navigation } from "./Navigation"
-import { MapPin, Phone, Timer } from "lucide-react"
+import { MapPin, Phone, Timer, X } from "lucide-react"
 export function Header() {
+
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
     const [isScrolled, setIsScrolled] = useState(false)
 
@@ -25,7 +26,7 @@ export function Header() {
     }
 
     return (
-        <header className="bg-white text-foreground fixed top-0 left-0 right-0 z-40 shadow-md transition-all duration-300">
+        <header className="bg-white text-foreground sticky top-0 left-0 right-0 z-40 shadow-md transition-all duration-300">
             <div className="flex">
                 <div
                     className={`bg-foreground flex items-center  justify-center transition-all duration-300  ${isScrolled ? "w-48 lg:w-48 " : "w-32 lg:w-72"
@@ -148,7 +149,7 @@ export function Header() {
                             className="text-white text-3xl font-light"
                             aria-label="Close mobile menu"
                         >
-                            x
+                            <X className="h-6 w-6 bg-foreground" />
                         </button>
                     </div>
 

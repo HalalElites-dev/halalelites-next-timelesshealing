@@ -5,7 +5,8 @@ import Link from "next/link"
 
 const Hero = () => {
     return (
-        <section id='home' className='py-40 md:py-60 px-6 bg-background'>
+        <section id='home' className='py-60 px-6 bg-background'>
+            {/* background image */}
             <div className='max-w-8xl mx-auto'>
                 <div className='gap-12 flex justify-center'>
                     <div className='text-center'>
