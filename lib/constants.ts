@@ -91,7 +91,7 @@ export const FEATURES = [
 
 
 // Services Section
-export const SERVICES_HEADING = 'How We Work';
+export const SERVICES_HEADING = 'Our Services';
 export const SERVICES_SUBTEXT = 'We offer a range of services to help you maximize your productivity and achieve your goals.';
 export const SERVICES = [
   {

@@ -163,7 +163,7 @@ export function Header() {
             onClick={() => setIsMobileMenuOpen(false)}
             aria-label="Close mobile menu"
           >
-            <X className="h-6 w-6 text-white" />
+            <X className="h-10 w-10 text-white" />
           </button>
         </div>
 
