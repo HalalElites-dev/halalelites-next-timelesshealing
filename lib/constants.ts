@@ -91,19 +91,26 @@ export const SERVICES = [
   },
 ]
 
-// Pricing Plans (if applicable)
-export const PRICING_PLANS = [
+// hijama FAQ info
+export const FAQ_HEADING = "Frequently Asked Questions";
+export const FAQ =[
   {
-    name: 'Free',
-    price: '$0',
-    features: ['Basic task management', 'Limited AI suggestions', '1 project'],
+    question: "What is Hijama?",
+    answer: "Hijama, or cupping therapy, is a traditional healing practice that involves creating suction on the skin to promote healing and well-being."
   },
   {
-    name: 'Pro',
-    price: '$12/mo',
-    features: ['Unlimited projects', 'Full AI suite', 'Priority support'],
+    question: "Is Hijama safe?",
+    answer: "Yes, Hijama is considered safe when performed by trained professionals using sterile equipment."
   },
-];
+  {
+    question: "What should I expect during a session?",
+    answer: "During a Hijama session, you can expect a thorough consultation, followed by the application of cups to specific areas of the body."
+  },
+  {
+    question: "How often should I get Hijama?",
+    answer: "The frequency of Hijama sessions depends on individual needs and health goals. Your practitioner will provide personalized recommendations."
+  }
+]
 
 // Footer Info
 export const FOOTER_TEXT = '© 2025 HalalElites empowers teams to transform raw data into clear, compelling visuals — making insights easier to share, understand, and act on.';

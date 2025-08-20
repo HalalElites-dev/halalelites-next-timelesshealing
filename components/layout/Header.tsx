@@ -4,9 +4,8 @@ import { useState, useEffect } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "../ui/button"
-import { scrollToSection } from "@/lib/utils"
 import { Navigation } from "./Navigation"
-import { Calendar, MapPin, Phone, X } from "lucide-react"
+import { Calendar, MapPin, Phone,  X } from "lucide-react"
 
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -29,12 +28,9 @@ export function Header() {
             isScrolled ? "w-28 lg:w-48" : "w-32 lg:w-72"
           }`}
         >
-          <a
-            href="#"
-            onClick={(e) => {
-              e.preventDefault()
-              scrollToSection("home")
-            }}
+          <Link
+            href="/"
+            
             className="flex-shrink-0"
           >
             <Image
@@ -45,7 +41,7 @@ export function Header() {
 
               className={`h-auto w-auto  max-h-12  ${isScrolled ? "md:max-h-16 " : "md:max-h-37 "} transition-all duration-300`}
             />
-          </a>
+          </Link>
         </div>
 
         {/* Right Side */}
