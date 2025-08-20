@@ -3,7 +3,7 @@ import { ABOUT_HEADING, ABOUT_SUBTEXT } from '@/lib/constants'
 
 const About = () => {
   return (
-    <section id='about' className="py-20 px-6 bg-white">
+    <section id='about' className="py-20 px-6 bg-background">
       <div className=" max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">{ABOUT_HEADING}</h2>
