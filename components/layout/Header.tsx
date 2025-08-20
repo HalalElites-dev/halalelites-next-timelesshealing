@@ -147,7 +147,7 @@ export function Header() {
 
       {/* Mobile Menu (Slide-in) */}
       <div
-        className={`fixed inset-0 bg-black/90 z-40 transform transition-transform duration-500 ease-in-out ${
+        className={`fixed inset-0 bg-black z-40 transform transition-transform duration-500 ease-in-out ${
           isMobileMenuOpen ? "translate-y-0" : "translate-y-full"
         } lg:hidden`}
       >
