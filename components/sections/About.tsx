@@ -8,9 +8,15 @@ const About = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
           {/* image here */}
-          <div className='relative w-full h-76 md:h-96 '>
-            <Image src="/about-image.png" alt="About Us" fill className="w-full h-full rounded-lg shadow-md" />
+          <div className='relative'>
+            <div className=' w-full h-76 md:h-96 '>
+            <Image src="/about-us.png" alt="About Us" fill className="w-full h-full rounded-lg shadow-md" />
+             <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-primary rounded-md flex items-center justify-center shadow-lg">
+              <Image src="/timelesshealing.jpeg" alt="Logo" width={64} height={64} className="h-auto w-auto" />
+            </div>
           </div>
+          </div>
+
           <div className="text-left mb-16">
             <div className='flex items-center gap-2'>
               <div className="h-0.5 w-6 bg-foreground"></div>

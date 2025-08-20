@@ -5,15 +5,15 @@ const Testimonials = () => {
         <section id='testimonials' className='py-20 px-6 bg-background'>
             <div className='max-w-7xl mx-auto'>
                 <div className='text-center mb-16'>
-                    <h2 className='text-3xl md:text-4xl font-bold text-foreground mb-4'>What Our Users Say</h2>
+                    <h2 className='text-3xl md:text-5xl font-bold text-foreground mb-4'>What Our Clients Say</h2>
                     <p className='text-xl text-muted-foreground max-w-2xl mx-auto'>
-                        Trusted by data teams at companies of all sizes to create impactful visualizations.
+                        Hijama, or cupping therapy, has been a transformative experience for many of our clients. Here are some of their stories.
                     </p>
                 </div>
 
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
                     {TESTIMONIALS.map((testimonial, index) => (
-                        <div key={index} className='bg-secondary p-8 rounded-lg  border border-border'>
+                        <div key={index} className='bg-secondary p-8 rounded-lg border border-border flex flex-col'>
                             {/* Star ratings */}
                             <div className='flex mb-6'>
                                 {[...Array(5)].map((_, i) => (
@@ -29,11 +29,11 @@ const Testimonials = () => {
                                 ))}
                             </div>
                             {/* Quote */}
-                            <blockquote className='text-muted-foreground mb-6'>
+                            <blockquote className='text-muted-foreground mb-6 flex-grow'>
                                 {testimonial.quote}
                             </blockquote>
                             {/* Author */}
-                            <div className='flex items-center'>
+                            <div className='flex items-center mt-auto'>
                                 <div className='w-10 h-10 bg-muted rounded-full mr-3'></div>
                                 <div>
                                     <p className='font-semibold text-foreground'>{testimonial.author}</p>

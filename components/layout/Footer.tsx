@@ -10,9 +10,9 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex items-center mb-4 gap-2">
               <Image
-                src="/timelesshealing.png"
+                src="/timelesshealing.jpeg"
                 alt="Timeless Healing Logo"
-                width={44}
+                width={200}
                 height={44}
               />
             </div>
