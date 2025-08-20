@@ -1,4 +1,4 @@
-import { X, Github, Linkedin, LucideIcon, Target, Eye, Heart } from "lucide-react";
+import { X, Github, Linkedin, LucideIcon,  } from "lucide-react";
 
 
 // Navigation Links
@@ -25,23 +25,6 @@ At Timeless Healing, we believe in the power of Hijama to restore balance and pr
 
 Whether you're seeking relief from pain, stress reduction, or overall wellness, Hijama can be a valuable part of your health journey.
 `;
-export const ABOUT = [
-  {
-    title: 'Our Mission',
-    description: 'To empower individuals and teams to achieve their best work through innovative technology.',
-    icon: Target,
-  },
-  {
-    title: 'Our Vision',
-    description: 'A world where productivity is seamless and accessible to everyone.',
-    icon: Eye,
-  },
-  {
-    title: 'Our Values',
-    description: 'Integrity, innovation, and customer-centricity are at the core of everything we do.',
-    icon: Heart,
-  },
-]
 // Contact Section
 export const CONTACT_HEADING = 'Get in Touch';
 export const CONTACT_SUBTEXT = 'We would love to hear from you! Reach out with any questions or feedback.';
@@ -51,7 +34,6 @@ export const CONTACT_ADDRESS = '123 HalalElites St, Suite 100, City, Country';
 
 
 // Testimonials Section
-
 export const TESTIMONIALS = [
   {
     quote: "Timeless Healing has changed my life. The Hijama sessions are incredibly relaxing and effective.",
@@ -70,24 +52,7 @@ export const TESTIMONIALS = [
   }
 ];
 
-// Features Section, use icons when available, prefferably lucide icons
-export const FEATURES = [
-  {
-    icon: '📅',
-    title: 'Smart Scheduling',
-    description: 'Automatically plan your day based on priority and deadlines.',
-  },
-  {
-    icon: '🤖',
-    title: 'AI Assistance',
-    description: 'Get AI-generated suggestions to improve productivity.',
-  },
-  {
-    icon: '🔔',
-    title: 'Reminders & Alerts',
-    description: 'Never miss a task with intelligent reminders and alerts.',
-  },
-];
+
 
 
 // Services Section

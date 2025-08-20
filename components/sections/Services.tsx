@@ -11,7 +11,7 @@ const Services = () => {
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">{SERVICES_SUBTEXT}</p>
         </div>
 
-        <div className="space-y-1">
+        <div className="space-y-2">
           {SERVICES.map((service, index) => (
             <div
               key={index}
