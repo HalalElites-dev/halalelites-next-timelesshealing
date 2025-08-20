@@ -8,7 +8,7 @@ const About = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
           {/* image here */}
-          <div className='relative w-full h-auto'>
+          <div className='relative w-full h-76 md:h-96 '>
             <Image src="/about-image.png" alt="About Us" fill className="w-full h-full rounded-lg shadow-md" />
           </div>
           <div className="text-left mb-16">
