@@ -6,7 +6,7 @@ import Link from "next/link"
 import { Button } from "../ui/button"
 import { scrollToSection } from "@/lib/utils"
 import { Navigation } from "./Navigation"
-import { MapPin, Phone, Timer, X } from "lucide-react"
+import { Calendar, MapPin, Phone, X } from "lucide-react"
 
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -56,7 +56,7 @@ export function Header() {
               isScrolled ? "opacity-0 max-h-0 py-0" : "opacity-100 max-h-20 py-3"
             }`}
           >
-            <div className="flex items-center space-x-8 text-sm">
+            <div className="flex items-center space-x-8 text-sm ">
               {[
                 {
                   icon: Phone,
@@ -65,12 +65,12 @@ export function Header() {
                   link: "tel:555-123-4567",
                 },
                 { icon: MapPin, label: "LOCATION", value: "Pittsburgh, PA" },
-                { icon: Timer, label: "HOURS", value: "Mon-Fri: 9am - 6pm" },
+                { icon: Calendar, label: "HOURS", value: "Mon-Fri: 9am - 6pm" },
               ].map((item, i) => (
                 <div key={i} className="flex items-center space-x-2">
-                  <item.icon className="text-primary h-5 w-5" />
+                  <item.icon className="text-primary h-6 w-6" />
                   <div className="flex flex-col">
-                    <span className="text-primary font-semibold text-xs">
+                    <span className="text-black font-bold text-md">
                       {item.label}
                     </span>
                     {item.link ? (

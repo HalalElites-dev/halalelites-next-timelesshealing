@@ -67,7 +67,7 @@
   /* ===== LIGHT MODE COLORS ===== */
 
   /* Main Page Colors */
-  --background: #f0f0f0; /* Main page background (off white white) */
+  --background: oklch(1 0 0); /* Main page background (off white white) */
   --foreground: oklch(0.145 0 0); /* Main text color (dark gray/black) */
 
   /* Card & Modal Colors */
