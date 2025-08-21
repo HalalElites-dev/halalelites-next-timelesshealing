@@ -113,7 +113,7 @@ export const FAQ =[
 ]
 
 // Footer Info
-export const FOOTER_TEXT = '© 2025 HalalElites empowers teams to transform raw data into clear, compelling visuals — making insights easier to share, understand, and act on.';
+export const FOOTER_TEXT = 'At Timeless Healing, we are committed to providing the highest quality care and support.';
 export const FOOTER_LINKS = [
   { label: 'Privacy Policy', href: '/privacy' },
   { label: 'Terms of Service', href: '/terms' },

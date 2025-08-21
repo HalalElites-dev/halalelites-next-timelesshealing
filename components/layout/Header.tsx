@@ -97,8 +97,8 @@ export function Header() {
                   {
                     icon: Phone,
                     label: "TIMELESS HEALING",
-                    value: "(555) 123-4567",
-                    link: "tel:555-123-4567",
+                    value: "(614) 828-7446",
+                    link: "tel:+16148287446",
                   },
                   { icon: MapPin, label: "LOCATION", value: "Pittsburgh, PA" },
                   { icon: Calendar, label: "HOURS", value: "Mon-Fri: 9am - 6pm" },
