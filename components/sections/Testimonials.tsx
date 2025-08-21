@@ -21,20 +21,20 @@ const Testimonials = () => {
             <div className='max-w-7xl mx-auto'>
                 <div className='text-center mb-20'>
                     <div className='flex items-center justify-center  space-x-2 '>
-                       
+
 
                     </div>
 
                     <h2 className='text-5xl md:text-6xl  text-foreground mb-8 leading-tight tracking-tight font-heading font-bold uppercase'>
-                       What Our Clients Say
+                        What Our Clients Say
                     </h2>
 
                 </div>
 
                 <div className="max-w-4xl mx-auto">
                     <div className="relative bg-background rounded-2xl shadow-xl p-8 md:p-12 border-primary/30 border-2">
-                        <div className="text-center">
-                           
+                        <div className="text-center md:min-h-[120px]">
+
 
                             <blockquote className="text-lg md:text-xl text-muted-foreground mb-6 italic leading-relaxed">
                                 &quot;{TESTIMONIALS[currentTestimonial].quote}&quot;

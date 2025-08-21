@@ -45,7 +45,7 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div>
-                                <Button className="hidden lg:block bg-primary hover:bg-primary/90 text-white font-bold px-6 py-3 text-lg">
+                                <Button className="block bg-primary hover:bg-primary/90 text-white font-bold px-6 py-3 text-lg font-heading">
                                     <Link
                                         className="flex w-full h-full items-center justify-center"
                                         href="https://calendly.com/timelesshealingllc/30min"
@@ -79,7 +79,7 @@ const Contact = () => {
                                 <label htmlFor="message" className='block text-sm font-medium text-foreground mb-1'>Message</label>
                                 <textarea id="message" rows={4} className='w-full min-h-[120px] h-24 px-3 py-2 ring-accent bg-background rounded-md border border-border text-foreground resize-none' />
                             </div>
-                            <Button type="submit" className='w-full bg-primary text-primary-foreground hover:bg-popover-foreground'>
+                            <Button type="submit" className='w-full bg-primary text-primary-foreground hover:bg-popover-foreground font-heading font-bold'>
                                 Send Message
                             </Button>
                         </form>
