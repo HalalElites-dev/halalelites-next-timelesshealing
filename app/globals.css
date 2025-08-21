@@ -42,8 +42,7 @@
 
   /* Typography - Fixed font fallbacks */
   --font-sans: ui-sans-serif, system-ui, sans-serif;
-  --font-mono: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
-  --font-heading: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Roboto";
 
   /* Border Radius */
   --radius-sm: calc(var(--radius) - 4px);
@@ -102,7 +101,7 @@
 
 
   /* Typography */
-  --font-heading: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Roboto";
 }
 
 /* ===== BASE STYLES ===== */

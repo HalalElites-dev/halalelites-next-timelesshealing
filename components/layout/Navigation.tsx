@@ -20,7 +20,7 @@ export function Navigation() {
           key={link.href}
           href={link.href}
           className={cn(
-            "text-2xl md:text-xl font-bold  relative py-1 group",
+            "text-2xl md:text-xl font-bold  relative py-1 group font-heading",
           )}
           onClick={(e) => handleClick(e, link.href)}
         >

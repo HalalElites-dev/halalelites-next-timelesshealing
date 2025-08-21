@@ -28,8 +28,8 @@ Whether you're seeking relief from pain, stress reduction, or overall wellness, 
 // Contact Section
 export const CONTACT_HEADING = 'Get in Touch';
 export const CONTACT_SUBTEXT = 'We would love to hear from you! Reach out with any questions or feedback.';
-export const CONTACT_EMAIL = 'support@halalelites.com';
-export const CONTACT_PHONE = '+1 (555) 123-4567';
+export const CONTACT_EMAIL = 'Timelesshealingllc@gmail.com';
+export const CONTACT_PHONE = '+1 (614) 828-7446';
 export const CONTACT_ADDRESS = '123 HalalElites St, Suite 100, City, Country';
 
 
