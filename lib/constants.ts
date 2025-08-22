@@ -8,7 +8,6 @@ export const NAV_LINKS = [
   { label: 'TESTIMONIALS', href: '#testimonials' },
   { label: 'CONTACT', href: '#contact' },
   { label: 'WHAT IS HIJAMA?', href: '/hijama' },
-  { label: 'FAQ', href: '/faq' },
 ]
 
 // Hero Section
