@@ -25,7 +25,7 @@ const Testimonials = () => {
 
                     </div>
 
-                    <h2 className='text-5xl md:text-6xl  text-foreground mb-8 leading-tight tracking-tight font-heading font-bold uppercase'>
+                    <h2 className='text-5xl md:text-5xl  text-foreground mb-8 leading-tight tracking-tight font-heading font-bold uppercase'>
                         What Our Clients Say
                     </h2>
 
