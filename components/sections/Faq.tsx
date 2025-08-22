@@ -13,11 +13,11 @@ const Faq = () => {
         setOpenFaq(openFaq === index ? null : index)
     }
     return (
-        <section id="faq" className="py-20 px-6 bg-background">
+        <section id="faq" className="py-20 px-6 bg-muted">
             <div className="max-w-4xl mx-auto">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl  font-bold text-foreground mb-4 font-heading">Frequently Asked Questions</h2>
-                    <p className="text-xl text-muted-foreground">Common questions about hijama therapy and our services</p>
+                    <h2 className="text-4xl  md:text-5xl font-bold text-foreground mb-4 font-heading">Frequently Asked Questions</h2>
+                    <p className="text-xl text-muted-foreground font-heading">Common questions about hijama therapy and our services</p>
                 </div>
 
                 <div className="space-y-4">

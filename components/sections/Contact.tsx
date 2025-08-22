@@ -5,7 +5,7 @@ import { Button } from '../ui/button'
 import Link from 'next/link'
 const Contact = () => {
     return (
-        <section id='contact' className='py-20 px-6 bg-background'>
+        <section id='contact' className='py-20 px-6 bg-muted'>
             <div className='max-w-7xl mx-auto'>
                 {/* Main grid container for a 2-column layout on large screens */}
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-12'>

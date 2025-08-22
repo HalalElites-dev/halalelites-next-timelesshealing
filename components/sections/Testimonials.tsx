@@ -17,7 +17,7 @@ const Testimonials = () => {
 
 
     return (
-        <section id='testimonials' className='py-24 px-6 bg-[#f0f0f0] '>
+        <section id='testimonials' className='py-24 px-6 bg-background '>
             <div className='max-w-7xl mx-auto'>
                 <div className='text-center mb-20'>
                     <div className='flex items-center justify-center  space-x-2 '>
