@@ -5,13 +5,11 @@ import {Heart, Shield, Sparkles, CheckCircle, Clock, BookOpen, Stethoscope } fro
 export default function WhatIsHijamaPage() {
   return (
     <div className="min-h-screen bg-background">
-
-
       {/* Hero Section */}
       <section className="mt-60 px-6 ">
         <div className="max-w-4xl mx-auto text-center">
         
-          <h1 className="text-5xl md:text-6xl font-serif font-bold text-foreground mb-6">
+          <h1 className="text-5xl md:text-6xl  font-bold text-foreground mb-6">
             What is Hijama?
           </h1>
           <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
@@ -41,7 +39,7 @@ export default function WhatIsHijamaPage() {
             <div className="bg-muted rounded-lg p-8">
               <div className="text-center">
                 <BookOpen className="w-16 h-16 text-accent mx-auto mb-4" />
-                <h3 className="text-2xl font-serif font-semibold mb-4">Etymology</h3>
+                <h3 className="text-2xl  font-semibold mb-4">Etymology</h3>
                 <p className="text-muted-foreground">
                   <strong>Hijama (حجامة)</strong> comes from the Arabic root ḥ-j-m, meaning &quot;to suck&quot; or &quot;to draw out.&quot;
                   It&apos;s also known as cupping therapy in Western medicine.
@@ -56,7 +54,7 @@ export default function WhatIsHijamaPage() {
       <section className="py-20 px-6 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-serif font-bold text-foreground mb-4">Types of Hijama</h2>
+            <h2 className="text-4xl  font-bold text-foreground mb-4">Types of Hijama</h2>
             <p className="text-xl text-muted-foreground">Understanding the different methods of cupping therapy</p>
           </div>
 
@@ -66,7 +64,7 @@ export default function WhatIsHijamaPage() {
                 <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Sparkles className="w-6 h-6 text-accent" />
                 </div>
-                <CardTitle className="font-serif">Wet Cupping (Hijama)</CardTitle>
+                <CardTitle className="">Wet Cupping (Hijama)</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
@@ -143,7 +141,7 @@ export default function WhatIsHijamaPage() {
       <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-serif font-bold text-foreground mb-4">How Hijama Works</h2>
+            <h2 className="text-4xl  font-bold text-foreground mb-4">How Hijama Works</h2>
             <p className="text-xl text-muted-foreground">
               The science and process behind this ancient healing practice
             </p>
@@ -151,7 +149,7 @@ export default function WhatIsHijamaPage() {
 
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div>
-              <h3 className="text-2xl font-serif font-semibold mb-6">The Therapeutic Process</h3>
+              <h3 className="text-2xl  font-semibold mb-6">The Therapeutic Process</h3>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="w-8 h-8 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
@@ -349,14 +347,14 @@ export default function WhatIsHijamaPage() {
       <section className="py-20 px-6 bg-white">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-serif font-bold text-foreground mb-4">Islamic Foundation</h2>
+            <h2 className="text-4xl  font-bold text-foreground mb-4">Islamic Foundation</h2>
             <p className="text-xl text-muted-foreground">The blessed practice as recommended by Prophet Muhammad (ﷺ)</p>
           </div>
 
           <div className="space-y-8">
             <Card className="border-l-4 border-l-accent">
               <CardContent className="pt-6">
-                <blockquote className="text-lg italic text-foreground mb-4 font-serif">
+                <blockquote className="text-lg italic text-foreground mb-4 ">
                   &quot;Indeed in cupping (hijama) there is a cure.&quot;
                 </blockquote>
                 <cite className="text-muted-foreground">— Prophet Muhammad (ﷺ), Sahih Muslim</cite>
@@ -369,7 +367,7 @@ export default function WhatIsHijamaPage() {
 
             <Card className="border-l-4 border-l-accent">
               <CardContent className="pt-6">
-                <blockquote className="text-lg italic text-foreground mb-4 font-serif">
+                <blockquote className="text-lg italic text-foreground mb-4 ">
                   &quot;Whoever performs cupping on the 17th, 19th or 21st day (of the Islamic month) then it is a cure for
                   every disease.&quot;
                 </blockquote>
