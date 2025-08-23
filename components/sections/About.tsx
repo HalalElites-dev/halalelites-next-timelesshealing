@@ -5,24 +5,24 @@ import { Button } from '../ui/button'
 import Link from 'next/link'
 const About = () => {
   return (
-    <section id='about' className="py-20 px-6 bg-white">
-      <div className=" max-w-7xl mx-auto">
+    <section id='about' className="py-20 px-6 bg-background">
+      <div className="max-w-7xl mx-auto">
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
           {/* image here */}
           <div className='relative'>
-            <div className=' w-full h-76 md:h-132 '>
+            <div className=' w-auto h-76 md:h-166 '>
               <Image src="/about-us.png" alt="About Us" fill className="w-full h-full rounded-lg shadow-md" />
               <div className="absolute -bottom-6 -right-6 w-24 h-24 md:w-60 md:h-32  bg-primary rounded-md flex items-center justify-center shadow-lg">
-                <span className='text-xs md:text-2xl font-heading font-bold text-left p-6 text-white shadow-md'>Sunnah-Based Healing</span>
+                <span className='text-xs md:text-2xl font-heading font-bold text-left p-6 text-background shadow-md '>Sunnah-Based Healing</span>
               </div>
             </div>
           </div>
           {/* right side */}
           <div className="text-left mb-16">
             <div className='flex items-center gap-2'>
-              <div className="h-0.5 w-6 bg-foreground"></div>
-              <span className="text-sm font-bold uppercase tracking-widest text-foreground">
+              <div className="h-0.5 w-6 bg-primary"></div>
+              <span className="text-sm font-bold uppercase tracking-widest text-primary">
                 About Us
               </span>
             </div>
@@ -43,9 +43,9 @@ const About = () => {
               </div>
             </div> */}
             <div className='mt-8'>
-              <Button variant='outline' size={'lg'} className='bg-secondary text-primary hover:text-secondary-foreground md:text-lg md:py-6 font-bold font-heading'>
-              <Link href="tel:555-123-4567">Consult Us</Link>
-            </Button>
+              <Button variant='outline' size={'lg'} className='bg-transparent text-primary hover:text-background hover:bg-accent md:text-xl md:py-6 font-bold font-heading border-primary hover:border-accent'>
+                <Link href="tel:555-123-4567">Consult Us</Link>
+              </Button>
             </div>
           </div>
         </div>

@@ -17,7 +17,7 @@ const Testimonials = () => {
 
 
     return (
-        <section id='testimonials' className='py-24 px-6 bg-background '>
+        <section id='testimonials' className='py-24 px-6 bg-white '>
             <div className='max-w-7xl mx-auto'>
                 <div className='text-center mb-20'>
                     <div className='flex items-center justify-center  space-x-2 '>
@@ -32,7 +32,7 @@ const Testimonials = () => {
                 </div>
 
                 <div className="max-w-4xl mx-auto">
-                    <div className="relative bg-background rounded-2xl shadow-xl p-8 md:p-12 border-primary/30 border-2">
+                    <div className="relative bg-background rounded-2xl shadow-xl p-8 md:p-12 border-primary border-1">
                         <div className="text-center md:min-h-[120px]">
 
 

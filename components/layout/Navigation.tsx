@@ -20,12 +20,12 @@ export function Navigation() {
           key={link.href}
           href={link.href}
           className={cn(
-            "text-2xl md:text-xl font-bold  relative py-1 group font-heading",
+            "text-2xl md:text-xl font-bold  relative py-1 group font-heading text-primary",
           )}
           onClick={(e) => handleClick(e, link.href)}
         >
           {link.label}
-          <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-foreground transition-all group-hover:w-full"></span>
+          <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all group-hover:w-full"></span>
 
         </Link>
       ))}

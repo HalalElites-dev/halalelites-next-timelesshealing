@@ -13,7 +13,7 @@ const Faq = () => {
         setOpenFaq(openFaq === index ? null : index)
     }
     return (
-        <section id="faq" className="py-20 px-6 bg-muted">
+        <section id="faq" className="py-20 px-6 bg-background">
             <div className="max-w-4xl mx-auto">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl  md:text-5xl font-bold text-foreground mb-4 font-heading">Frequently Asked Questions</h2>

@@ -1,7 +1,6 @@
 "use client"
-import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { ArrowLeft, Heart, Shield, Sparkles, CheckCircle, Clock, Award, BookOpen, Stethoscope } from "lucide-react"
+import {Heart, Shield, Sparkles, CheckCircle, Clock, BookOpen, Stethoscope } from "lucide-react"
 
 export default function WhatIsHijamaPage() {
   return (
@@ -27,9 +26,9 @@ export default function WhatIsHijamaPage() {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div>
-              <h2 className="text-4xl font-serif font-bold text-foreground mb-6">The Sacred Practice</h2>
+              <h2 className="text-4xl  font-bold text-foreground mb-6 font-heading">The Prophetic Practice</h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Hijama, derived from the Arabic word "hajm&quot; meaning "sucking," is a traditional Islamic therapeutic
+                Hijama, derived from the Arabic word &quot;hajm&quot; meaning &quot;sucking,&quot; is a traditional Islamic therapeutic
                 practice that involves creating suction on specific points of the body using specialized cups. This
                 ancient healing method was practiced and recommended by Prophet Muhammad (peace be upon him) as a
                 powerful remedy for various ailments.
@@ -44,8 +43,8 @@ export default function WhatIsHijamaPage() {
                 <BookOpen className="w-16 h-16 text-accent mx-auto mb-4" />
                 <h3 className="text-2xl font-serif font-semibold mb-4">Etymology</h3>
                 <p className="text-muted-foreground">
-                  <strong>Hijama (حجامة)</strong> comes from the Arabic root ḥ-j-m, meaning "to suck" or "to draw out."
-                  It's also known as cupping therapy in Western medicine.
+                  <strong>Hijama (حجامة)</strong> comes from the Arabic root ḥ-j-m, meaning &quot;to suck&quot; or &quot;to draw out.&quot;
+                  It&apos;s also known as cupping therapy in Western medicine.
                 </p>
               </div>
             </div>
@@ -54,7 +53,7 @@ export default function WhatIsHijamaPage() {
       </section>
 
       {/* Types of Hijama */}
-      <section className="py-20 px-6 bg-muted/30">
+      <section className="py-20 px-6 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-serif font-bold text-foreground mb-4">Types of Hijama</h2>
@@ -243,7 +242,7 @@ export default function WhatIsHijamaPage() {
       </section>
 
       {/* Conditions Treated */}
-      <section className="py-20 px-6 bg-muted/30">
+      {/* <section className="py-20 px-6 bg-muted/30">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-serif font-bold text-foreground mb-4">Conditions Treated</h2>
@@ -344,10 +343,10 @@ export default function WhatIsHijamaPage() {
             </Card>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Islamic Foundation */}
-      <section className="py-20 px-6">
+      <section className="py-20 px-6 bg-white">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-serif font-bold text-foreground mb-4">Islamic Foundation</h2>
@@ -358,7 +357,7 @@ export default function WhatIsHijamaPage() {
             <Card className="border-l-4 border-l-accent">
               <CardContent className="pt-6">
                 <blockquote className="text-lg italic text-foreground mb-4 font-serif">
-                  "Indeed in cupping (hijama) there is a cure."
+                  &quot;Indeed in cupping (hijama) there is a cure.&quot;
                 </blockquote>
                 <cite className="text-muted-foreground">— Prophet Muhammad (ﷺ), Sahih Muslim</cite>
                 <p className="text-muted-foreground mt-4">
@@ -371,8 +370,8 @@ export default function WhatIsHijamaPage() {
             <Card className="border-l-4 border-l-accent">
               <CardContent className="pt-6">
                 <blockquote className="text-lg italic text-foreground mb-4 font-serif">
-                  "Whoever performs cupping on the 17th, 19th or 21st day (of the Islamic month) then it is a cure for
-                  every disease."
+                  &quot;Whoever performs cupping on the 17th, 19th or 21st day (of the Islamic month) then it is a cure for
+                  every disease.&quot;
                 </blockquote>
                 <cite className="text-muted-foreground">— Prophet Muhammad (ﷺ), Sunan Abu Dawud</cite>
                 <p className="text-muted-foreground mt-4">

@@ -3,10 +3,10 @@ import { X, Github, Linkedin, LucideIcon,  } from "lucide-react";
 
 // Navigation Links
 export const NAV_LINKS = [
-  { label: 'ABOUT', href: '#about' },
-  { label: 'SERVICES', href: '#services' },
-  { label: 'TESTIMONIALS', href: '#testimonials' },
-  { label: 'CONTACT', href: '#contact' },
+  { label: 'ABOUT', href: '/#about' },
+  { label: 'SERVICES', href: '/#services' },
+  { label: 'TESTIMONIALS', href: '/#testimonials' },
+  { label: 'CONTACT', href: '/#contact' },
   { label: 'WHAT IS HIJAMA?', href: '/hijama' },
 ]
 
@@ -116,7 +116,7 @@ export const FOOTER_TEXT = 'At Timeless Healing, we are committed to providing t
 export const FOOTER_LINKS = [
   { label: 'Privacy Policy', href: '/privacy' },
   { label: 'Terms of Service', href: '/terms' },
-  { label: 'Cookie Settings', href: '/cookie-settings' },
+  // { label: 'Cookie Settings', href: '/cookie-settings' },
 ];
 
 

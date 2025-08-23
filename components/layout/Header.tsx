@@ -72,18 +72,18 @@ export function Header() {
     <>
       <header 
         ref={headerRef}
-        className="fixed top-0 left-0 right-0 z-40 w-full bg-white shadow-md transition-all duration-300 ease-out"
+        className="fixed top-0 left-0 right-0 z-40 w-full bg-background shadow-md transition-all duration-300 ease-out"
       >
         <div className="flex">
           {/* Logo Area */}
-          <div className="bg-white flex items-center justify-center flex-shrink-0 w-32 md:w-72 transition-all duration-300 [.is-scrolled_&]:w-28 [.is-scrolled_&]:md:w-48">
+          <div className="bg-primary flex items-center justify-center flex-shrink-0 w-32 md:w-72 transition-all duration-300 [.is-scrolled_&]:w-28 [.is-scrolled_&]:md:w-48">
             <Link href="/" className="flex-shrink-0">
               <Image
-                src="/timelesshealing.jpeg"
+                src="/logo.webp"
                 alt="Timeless Healing Logo"
                 width={1000}
                 height={50}
-                className="h-auto w-auto max-h-12 md:max-h-36 transition-all duration-300 [.is-scrolled_&]:max-h-12 [.is-scrolled_&]:md:max-h-16"
+                className="h-auto w-auto max-h-12 md:max-h-32 transition-all duration-300 [.is-scrolled_&]:max-h-12 [.is-scrolled_&]:md:max-h-12"
               />
             </Link>
           </div>
@@ -91,7 +91,7 @@ export function Header() {
           {/* Right Side */}
           <div className="flex-1 flex flex-col">
             {/* Top Info Bar (desktop only) */}
-            <div className="hidden lg:flex items-center justify-end px-6 bg-white border-b overflow-hidden transition-all duration-300 max-h-20 py-3 [.is-scrolled_&]:max-h-0 [.is-scrolled_&]:py-0 [.is-scrolled_&]:opacity-0">
+            <div className="hidden lg:flex items-center justify-end px-6 bg-primary border-b overflow-hidden transition-all duration-300 max-h-20 py-3 [.is-scrolled_&]:max-h-0 [.is-scrolled_&]:py-0 [.is-scrolled_&]:opacity-0">
               <div className="flex items-center space-x-8 text-sm">
                 {[
                   {
@@ -104,20 +104,20 @@ export function Header() {
                   { icon: Calendar, label: "HOURS", value: "Mon-Fri: 9am - 6pm" },
                 ].map((item, i) => (
                   <div key={i} className="flex items-center space-x-2">
-                    <item.icon className="text-primary h-6 w-6" />
+                    <item.icon className="text-accent h-6 w-6" />
                     <div className="flex flex-col">
-                      <span className="text-black font-bold text-md">
+                      <span className="text-background font-bold text-md">
                         {item.label}
                       </span>
                       {item.link ? (
                         <a
                           href={item.link}
-                          className="text-muted-foreground hover:text-primary"
+                          className="text-background hover:text-accent"
                         >
                           {item.value}
                         </a>
                       ) : (
-                        <span className="text-muted-foreground">
+                        <span className="text-background">
                           {item.value}
                         </span>
                       )}
@@ -128,8 +128,8 @@ export function Header() {
             </div>
 
             {/* Mobile Hours (below logo) */}
-            <div className="lg:hidden text-center bg-gray-100 overflow-hidden transition-all duration-300 max-h-10 py-2 [.is-scrolled_&]:max-h-0 [.is-scrolled_&]:py-0 [.is-scrolled_&]:opacity-0">
-              <span className="text-muted-foreground text-sm block">
+            <div className="lg:hidden text-center bg-accent overflow-hidden transition-all duration-300 max-h-10 py-2 [.is-scrolled_&]:max-h-0 [.is-scrolled_&]:py-0 [.is-scrolled_&]:opacity-0">
+              <span className="text-accent-foreground text-sm block">
                 Mon-Fri: 9am - 6pm
               </span>
             </div>
@@ -140,7 +140,7 @@ export function Header() {
                 <Navigation />
               </nav>
 
-              <Button className="hidden lg:block bg-primary hover:bg-primary/90 text-white font-bold px-6 py-3 text-lg font-heading">
+              <Button className="hidden lg:block bg-primary hover:bg-primary/90  hover:text-primary-foreground text-background font-bold px-6 py-3 text-lg font-heading">
                 <Link
                   className="flex w-full h-full items-center justify-center"
                   href="https://calendly.com/timelesshealingllc/30min"

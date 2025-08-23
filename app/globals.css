@@ -63,46 +63,48 @@
 /* ===== ROOT VARIABLES ===== */
 :root {
   --radius: 0.625rem;
+
   /* ===== LIGHT MODE COLORS ===== */
 
-  /* Main Page Colors */
-  --background: oklch(1 0 0); /* Main page background (off white white) */
-  --foreground: oklch(0.145 0 0); /* Main text color (dark gray/black) */
+ --background: oklch(0.95 0.02 85); /* Warm cream background */
+  --foreground: oklch(0.25 0.05 150); /* Deep forest green text */
+  --card: oklch(0.98 0.01 85); /* Light cream for cards */
+  --card-foreground: oklch(0.25 0.05 150); /* Deep green text on cards */
+  --popover: oklch(0.98 0.01 85); /* Light cream popover */
+  --popover-foreground: oklch(0.25 0.05 150); /* Deep green text in popover */
+  --primary: oklch(0.35 0.08 150); /* Rich forest green for primary buttons */
+  --primary-foreground: oklch(0.95 0.02 85); /* Cream text on green buttons */
+  --secondary: oklch(0.75 0.12 85); /* Warm gold accent color */
+  --secondary-foreground: oklch(0.25 0.05 150); /* Deep green text on gold */
+  --muted: oklch(0.92 0.02 85); /* Muted cream background */
+  --muted-foreground: oklch(0.45 0.04 150); /* Muted green text */
+  --accent: oklch(0.75 0.12 85); /* Gold highlights */
+  --accent-foreground: oklch(0.25 0.05 150); /* Deep green text on gold accents */
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(1 0 0);
+  --border: oklch(0.85 0.03 85); /* Warm cream borders */
+  --input: oklch(0.98 0.01 85); /* Light cream input background */
+  --ring: oklch(0.75 0.12 85); /* Gold focus ring */
+  --chart-1: oklch(0.35 0.08 150);
+  --chart-2: oklch(0.75 0.12 85);
+  --chart-3: oklch(0.95 0.02 85);
+  --chart-4: oklch(0.25 0.05 150);
+  --chart-5: oklch(0.85 0.03 85);
+  --radius: 0.5rem;
+  --sidebar: oklch(0.95 0.02 85);
+  --sidebar-foreground: oklch(0.25 0.05 150);
+  --sidebar-primary: oklch(0.75 0.12 85);
+  --sidebar-primary-foreground: oklch(0.25 0.05 150);
+  --sidebar-accent: oklch(0.98 0.01 85);
+  --sidebar-accent-foreground: oklch(0.25 0.05 150);
+  --sidebar-border: oklch(0.85 0.03 85);
+  --sidebar-ring: oklch(0.75 0.12 85);
 
-  /* Card & Modal Colors */
-  --card: oklch(1 0 0); /* Background for cards, modals, dropdowns */
-  --card-foreground: oklch(0.145 0 0); /* Text color inside cards */
-  --popover: oklch(1 0 0); /* Background for popovers, tooltips */
-  --popover-foreground: oklch(0.145 0 0); /* Text color in popovers */
-
-  /* Brand & Interactive Colors */
-  --primary: oklch(0.145 0 0); /* Dark gray/black - main buttons, links, logos */
-  --primary-foreground: oklch(1 0 0); /* White text on primary background */
-
-  /* Subtle Background Colors */
-  --secondary: oklch(0.985 0.002 247.839); /* Very light gray - section backgrounds */
-  --secondary-foreground: oklch(0.145 0 0); /* Dark text on secondary */
-  --muted: oklch(0.961 0 0); /* Light gray - hover states, disabled elements */
-  --muted-foreground: oklch(0.455 0 0); /* Medium gray text - labels, captions */
-  --accent: oklch(0.961 0 0); /* Accent backgrounds - highlights, badges */
-  --accent-foreground: oklch(0.145 0 0); /* Dark text on accent */
-
-  /* Status Colors */
-  --destructive: oklch(0.577 0.245 27.325); /* Error/danger color - delete buttons, error messages */
-  --destructive-foreground: oklch(1 0 0); /* White text on destructive background - ADDED * adjusting/ 
-
-  /* Form & Border Colors */
-  --border: oklch(0.898 0 0); /* All borders - cards, inputs, dividers */
-  --input: oklch(0.898 0 0); /* Input field borders */
-  --ring: oklch(0.145 0 0); /* Focus ring color around focused elements */
-
-  /* Client Customization Colors */
-  --brand-primary: #FFD700; /* Gold accent */
-
-
+  
   /* Typography */
   --font-heading: "Roboto";
 }
+
 
 /* ===== BASE STYLES ===== */
 @layer base {

@@ -5,7 +5,7 @@ import { Button } from '../ui/button'
 import Link from 'next/link'
 const Contact = () => {
     return (
-        <section id='contact' className='py-20 px-6 bg-muted'>
+        <section id='contact' className='py-20 px-6 bg-background'>
             <div className='max-w-7xl mx-auto'>
                 {/* Main grid container for a 2-column layout on large screens */}
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-12'>
@@ -22,7 +22,7 @@ const Contact = () => {
                                     <Mail className='w-6 h-6 text-primary' />
                                 </div>
                                 <div className='ml-4'>
-                                    <h3 className='text-lg font-semibold text-foreground'>Email</h3>
+                                    <h3 className='text-lg font-semibold text-primary'>Email</h3>
                                     <p className='text-muted-foreground'>{CONTACT_EMAIL}</p>
                                 </div>
                             </div>
@@ -31,7 +31,7 @@ const Contact = () => {
                                     <MapPin className='w-6 h-6 text-primary' />
                                 </div>
                                 <div className='ml-4'>
-                                    <h3 className='text-lg font-semibold text-foreground'>Office</h3>
+                                    <h3 className='text-lg font-semibold text-primary'>Office</h3>
                                     <p className='text-muted-foreground'>{CONTACT_ADDRESS}</p>
                                 </div>
                             </div>
@@ -40,7 +40,7 @@ const Contact = () => {
                                     <Phone className='w-6 h-6 text-primary' />
                                 </div>
                                 <div className='ml-4'>
-                                    <h3 className='text-lg font-semibold text-foreground'>Phone</h3>
+                                    <h3 className='text-lg font-semibold text-primary'>Phone</h3>
                                     <p className='text-muted-foreground'>{CONTACT_PHONE}</p>
                                 </div>
                             </div>
@@ -59,26 +59,26 @@ const Contact = () => {
                     </div>
 
                     {/* Second Column: The Form Container */}
-                    <div className='bg-secondary p-8 rounded-lg border border-border'>
+                    <div className='bg-primary p-8 rounded-lg border border-border'>
                         {/* The form itself, now purely for display without interactivity */}
                         <form className='space-y-6'>
                             <div>
-                                <label htmlFor="name" className='block text-sm font-medium text-foreground mb-1'>Name</label>
-                                <input type="text" id="name" className='w-full h-10 px-3 py-2 ring-accent bg-background rounded-md border border-border text-foreground' />
+                                <label htmlFor="name" className='block text-sm font-medium text-accent mb-1'>Name</label>
+                                <input type="text" id="name" className='w-full h-10 px-3 py-2 ring-accent bg-white rounded-md border border-border text-foreground' />
                             </div>
                             <div>
-                                <label htmlFor="email" className='block text-sm font-medium text-foreground mb-1'>Email</label>
-                                <input type="email" id="email" className='w-full h-10 px-3 py-2 ring-accent bg-background rounded-md border border-border text-foreground' />
+                                <label htmlFor="email" className='block text-sm font-medium text-accent mb-1'>Email</label>
+                                <input type="email" id="email" className='w-full h-10 px-3 py-2 ring-accent bg-white rounded-md border border-border text-foreground' />
                             </div>
                             <div>
-                                <label htmlFor="company" className='block text-sm font-medium text-foreground mb-1'>Company</label>
-                                <input type="text" id="company" className='w-full h-10 px-3 py-2 ring-accent bg-background rounded-md border border-border text-foreground' />
+                                <label htmlFor="company" className='block text-sm font-medium text-accent mb-1'>Company</label>
+                                <input type="text" id="company" className='w-full h-10 px-3 py-2 ring-accent bg-white rounded-md border border-border text-foreground' />
                             </div>
                             <div>
-                                <label htmlFor="message" className='block text-sm font-medium text-foreground mb-1'>Message</label>
-                                <textarea id="message" rows={4} className='w-full min-h-[120px] h-24 px-3 py-2 ring-accent bg-background rounded-md border border-border text-foreground resize-none' />
+                                <label htmlFor="message" className='block text-sm font-medium text-accent mb-1'>Message</label>
+                                <textarea id="message" rows={4} className='w-full min-h-[120px] h-24 px-3 py-2 ring-accent bg-white rounded-md border border-border text-foreground resize-none' />
                             </div>
-                            <Button type="submit" className='w-full bg-primary text-primary-foreground hover:bg-popover-foreground font-heading font-bold'>
+                            <Button type="submit" className='w-full bg-accent text-primary-foreground hover:bg-accent/90 font-heading font-bold'>
                                 Send Message
                             </Button>
                         </form>
