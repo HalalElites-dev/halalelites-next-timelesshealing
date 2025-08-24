@@ -13,8 +13,8 @@ const About = () => {
           <div className='relative'>
             <div className=' w-auto h-76 md:h-166 '>
               <Image src="/about-us.png" alt="About Us" fill className="w-full h-full rounded-lg shadow-md" />
-              <div className="absolute -bottom-6 -right-6 w-24 h-24 md:w-60 md:h-32  bg-primary rounded-md flex items-center justify-center shadow-lg">
-                <span className='text-xs md:text-2xl font-heading font-bold text-left p-6 text-background shadow-md '>Sunnah-Based Healing</span>
+              <div className="absolute -bottom-5 -right-5 md:-bottom-6 md:-right-6 w-24 h-24 md:w-60 md:h-32  bg-primary rounded-md flex items-center justify-center shadow-lg">
+                <span className='text-md md:text-2xl font-heading font-bold text-left p-6 text-background md:shadow-md '>Sunnah-Based Healing</span>
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@ const About = () => {
               </div>
             </div> */}
             <div className='mt-8'>
-              <Button variant='outline' size={'lg'} className='bg-transparent text-primary hover:text-background hover:bg-accent md:text-xl md:py-6 font-bold font-heading border-primary hover:border-accent'>
+              <Button variant='outline' size={'lg'} className='bg-primary text-white md:bg-transparent md:text-primary hover:text-background hover:bg-accent md:text-xl md:py-6 font-bold font-heading border-primary hover:border-accent'>
                 <Link href="tel:555-123-4567">Consult Us</Link>
               </Button>
             </div>
