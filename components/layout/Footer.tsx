@@ -7,8 +7,8 @@ const Footer = () => {
 
   return (
     <footer className="border-t py-12 px-6 bg-primary">
-      <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 lg:gap-12">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
           {/* Left section - Brand and description */}
           <div className="lg:col-span-1">
             <div className="flex items-center mb-4 gap-2">
@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
 
           {/* Navigation Columns */}
-          <div className="lg:col-span-3 grid grid-cols-1 sm:grid-cols-3 gap-8">
+          <div className="md:col-span-2 grid grid-cols-1 sm:grid-cols-3 gap-8">
             {/* Product Column */}
             <div>
               <h3 className="font-semibold text-accent mb-4">Quick Links</h3>
@@ -67,33 +67,30 @@ const Footer = () => {
 
             {/* Resources Column */}
             <div>
-              <h3 className="font-semibold text-accent mb-4 font-heading">Resources</h3>
+              <h3 className="font-semibold text-accent mb-4 font-heading">Contact Information</h3>
               <ul className="space-y-3">
                 <li>
-                  <Link href="/docs" className=" hover:text-accent text-background  transition-colors text-sm hover:underline">
-                    Documentation
+                  <Link href="tel:+16148287446" className=" hover:text-accent text-background  transition-colors text-sm hover:underline">
+                    (614) 828-7446
+
                   </Link>
                 </li>
                 <li>
-                  <Link href="/tutorials" className=" hover:text-accent text-background  transition-colors text-sm hover:underline">
-                    Tutorials
+                  <Link href="https://maps.app.goo.gl/Qq52KGt2RowgAUmz6" className=" hover:text-accent text-background  transition-colors text-sm hover:underline">
+                    Our Location
                   </Link>
                 </li>
                 <li>
-                  <Link href="/help" className=" hover:text-accent text-background  transition-colors text-sm hover:underline">
-                    Help Center
+                  <Link href="mailto:Timelesshealingllc@gmail.com" className=" hover:text-accent text-background  transition-colors text-sm hover:underline">
+                    Timelesshealingllc@gmail.com
                   </Link>
                 </li>
-                <li>
-                  <Link href="/api" className=" hover:text-accent text-background  transition-colors text-sm hover:underline">
-                    API
-                  </Link>
-                </li>
+                
               </ul>
             </div>
 
-            {/* Company Column - Fixed: Added missing div wrapper */}
-            <div>
+            {/* Company Column - */}
+            {/* <div>
               <h3 className="font-semibold text-accent mb-4">Company</h3>
               <ul className="space-y-3">
                 <li>
@@ -117,7 +114,7 @@ const Footer = () => {
                   </Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
 

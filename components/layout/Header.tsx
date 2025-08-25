@@ -90,8 +90,8 @@ export function Header() {
 
           {/* Right Side */}
           <div className="flex-1 flex flex-col">
-            {/* Top Info Bar (desktop only) */}
-            <div className="hidden lg:flex items-center justify-end px-6 bg-primary border-b overflow-hidden transition-all duration-300 max-h-20 py-3 [.is-scrolled_&]:max-h-0 [.is-scrolled_&]:py-0 [.is-scrolled_&]:opacity-0">
+            {/* Top Info Bar (desktop only - now xl: instead of lg:) */}
+            <div className="hidden xl:flex items-center justify-end px-6 bg-primary border-b overflow-hidden transition-all duration-300 max-h-20 py-3 [.is-scrolled_&]:max-h-0 [.is-scrolled_&]:py-0 [.is-scrolled_&]:opacity-0">
               <div className="flex items-center space-x-8 text-sm">
                 {[
                   {
@@ -100,7 +100,7 @@ export function Header() {
                     value: "(614) 828-7446",
                     link: "tel:+16148287446",
                   },
-                  { icon: MapPin, label: "LOCATION", value: "Pittsburgh, PA" },
+                  { icon: MapPin, label: "LOCATION", value: "Columbus, OH" },
                   { icon: Calendar, label: "HOURS", value: "Mon-Fri: 9am - 6pm" },
                 ].map((item, i) => (
                   <div key={i} className="flex items-center space-x-2">
@@ -127,8 +127,8 @@ export function Header() {
               </div>
             </div>
 
-            {/* Mobile Hours (below logo) */}
-            <div className="lg:hidden text-center bg-accent overflow-hidden transition-all duration-300 max-h-10 py-2 [.is-scrolled_&]:max-h-0 [.is-scrolled_&]:py-0 [.is-scrolled_&]:opacity-0">
+            {/* Mobile Hours (below logo - now shows up to xl:) */}
+            <div className="xl:hidden text-center bg-accent overflow-hidden transition-all duration-300 max-h-10 py-2 [.is-scrolled_&]:max-h-0 [.is-scrolled_&]:py-0 [.is-scrolled_&]:opacity-0">
               <span className="text-accent-foreground text-sm block">
                 Mon-Fri: 9am - 6pm
               </span>
@@ -136,11 +136,13 @@ export function Header() {
 
             {/* Main Nav Row */}
             <div className="flex items-center justify-between px-6 py-6 transition-all duration-300 [.is-scrolled_&]:py-3">
-              <nav className="hidden md:flex items-center space-x-8">
+              {/* Desktop navigation - now only shows on xl: screens */}
+              <nav className="hidden xl:flex items-center space-x-8">
                 <Navigation />
               </nav>
 
-              <Button className="hidden lg:block bg-primary hover:bg-primary/90  hover:text-primary-foreground text-background font-bold px-6 py-3 text-lg font-heading">
+              {/* Desktop CTA button - now only shows on xl: screens */}
+              <Button className="hidden xl:block bg-primary hover:bg-primary/90  hover:text-primary-foreground text-background font-bold px-6 py-3 text-lg font-heading">
                 <Link
                   className="flex w-full h-full items-center justify-center"
                   href="https://calendly.com/timelesshealingllc/30min"
@@ -150,9 +152,9 @@ export function Header() {
                 </Link>
               </Button>
 
-              {/* Mobile Menu Toggle */}
+              {/* Mobile Menu Toggle - now shows up to xl: instead of lg: */}
               <button
-                className="lg:hidden flex flex-col space-y-1 p-2 ml-auto z-50 relative"
+                className="xl:hidden flex flex-col space-y-1 p-2 ml-auto z-50 relative"
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                 aria-label="Toggle mobile menu"
               >
@@ -177,35 +179,35 @@ export function Header() {
         </div>
       </header>
 
-      {/* Mobile Menu Overlay */}
+      {/* Mobile Menu Overlay - now shows up to xl: */}
       {isMobileMenuOpen && (
         <div 
-          className="fixed inset-0 bg-black/50 z-50 lg:hidden"
+          className="fixed inset-0 bg-black/50 z-50 xl:hidden"
           onClick={() => setIsMobileMenuOpen(false)}
         />
       )}
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu - now shows up to xl: */}
       <div
-        className={`fixed top-0 right-0 h-full w-80 max-w-full bg-white z-50 transform transition-transform duration-300 ease-in-out lg:hidden ${
+        className={`fixed top-0 right-0 h-full w-80 max-w-full bg-white z-50 transform transition-transform duration-300 ease-in-out xl:hidden ${
           isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
         {/* Mobile Menu Header */}
-        <div className="flex justify-between items-center p-6 border-b border-gray-200">
-          <Image
-            src="/timelesshealing.jpeg"
-            alt="Timeless Healing Logo"
-            width={150}
-            height={40}
-            className="h-10 w-auto object-contain"
-          />
+        <div className="flex justify-between items-center p-6 border-b border-brand-primary bg-foreground">
+         <Image
+           src="/logo.webp"
+           alt="Timeless Healing Logo"
+           width={150}
+           height={40}
+           className="h-10 w-auto object-contain"
+         />
           <button
             onClick={() => setIsMobileMenuOpen(false)}
             aria-label="Close mobile menu"
             className="p-2 hover:bg-gray-100 rounded-full transition-colors"
           >
-            <X className="h-6 w-6 text-gray-900" />
+            <X className="h-6 w-6 text-background" />
           </button>
         </div>
 
@@ -220,19 +222,19 @@ export function Header() {
             <div className="flex items-center space-x-3">
               <Phone className="h-5 w-5 text-primary" />
               <a 
-                href="tel:555-123-4567"
-                className="text-gray-900 hover:text-primary transition-colors"
+                href="tel:+16148287446"
+                className="text-muted-foreground hover:text-primary transition-colors"
               >
-                (555) 123-4567
+                (614) 828-7446
               </a>
             </div>
             <div className="flex items-center space-x-3">
               <MapPin className="h-5 w-5 text-primary" />
-              <span className="text-gray-600">Pittsburgh, PA</span>
+              <span className="text-muted-foreground">Columbus, OH</span>
             </div>
             <div className="flex items-center space-x-3">
               <Calendar className="h-5 w-5 text-primary" />
-              <span className="text-gray-600">Mon-Fri: 9am - 6pm</span>
+              <span className="text-muted-foreground">Mon-Fri: 9am - 6pm</span>
             </div>
           </div>
 

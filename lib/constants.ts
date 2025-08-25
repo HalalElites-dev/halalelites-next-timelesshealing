@@ -29,7 +29,7 @@ export const CONTACT_HEADING = 'Get in Touch';
 export const CONTACT_SUBTEXT = 'We would love to hear from you! Reach out with any questions or feedback.';
 export const CONTACT_EMAIL = 'Timelesshealingllc@gmail.com';
 export const CONTACT_PHONE = '+1 (614) 828-7446';
-export const CONTACT_ADDRESS = '123 HalalElites St, Suite 100, City, Country';
+export const CONTACT_ADDRESS = '3252 Cleveland Avenue, Columbus, OH';
 
 
 // Testimonials Section
@@ -114,8 +114,8 @@ export const FAQ =[
 // Footer Info
 export const FOOTER_TEXT = 'At Timeless Healing, we are committed to providing the highest quality care and support.';
 export const FOOTER_LINKS = [
-  { label: 'Privacy Policy', href: '/privacy' },
-  { label: 'Terms of Service', href: '/terms' },
+  { label: 'Privacy Policy', href: '/privacy-policy' },
+  { label: 'Terms of Service', href: '/terms-of-service' },
   // { label: 'Cookie Settings', href: '/cookie-settings' },
 ];
 

@@ -12,7 +12,7 @@ const Hero = () => {
             <div className='relative max-w-8xl mx-auto'>
                 <div className='gap-12 flex justify-center'>
                     <div className='text-center'>
-                        <h1 className='text-4xl md:text-5xl lg:text-8xl font-bold max-w-4xl mb-6 text-background leading-tight  '>{HERO_HEADING}</h1>
+                        <h1 className='text-4xl md:text-5xl lg:text-8xl font-bold max-w-4xl mb-6 text-foreground leading-tight  '>{HERO_HEADING}</h1>
                         <p className='text-xl md:text-2xl mb-8 max-w-3xl text-muted-foreground m-auto font-heading'>{HERO_SUBTEXT}</p>
                         <div className=' flex flex-col sm:flex-row gap-4 md:justify-center'>
                             <Button size={'lg'} className='bg-primary hover:text-primary-foreground text-background md:text-xl md:py-6 font-bold font-heading border border-transparent'>
