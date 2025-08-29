@@ -4,13 +4,14 @@ import Faq from "@/components/sections/Faq";
 import Hero from "@/components/sections/Hero";
 import Services from "@/components/sections/Services";
 import Testimonials from "@/components/sections/Testimonials";
-
+import Hijama from "@/components/sections/hijama";
 export default function Home() {
   return (
   <main>
     <Hero/>
     <About/>
     <Services/>
+    <Hijama/>
     <Faq/>
     <Testimonials/>
     <Contact/>

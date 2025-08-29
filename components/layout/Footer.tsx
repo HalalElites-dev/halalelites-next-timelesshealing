@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { FOOTER_TEXT, FOOTER_LINKS } from "@/lib/constants"
 import Image from "next/image"
+import { Phone, MapPin, Mail } from "lucide-react";
 const Footer = () => {
 
   const currentYear = new Date().getFullYear();
@@ -8,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="border-t py-12 px-6 bg-primary">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           {/* Left section - Brand and description */}
           <div className="lg:col-span-1">
             <div className="flex items-center mb-4 gap-2">
@@ -37,7 +38,7 @@ const Footer = () => {
           </div>
 
           {/* Navigation Columns */}
-          <div className="md:col-span-2 grid grid-cols-1 sm:grid-cols-3 gap-8">
+          <div className="md:col-span-1 grid grid-cols-1 sm:grid-cols-3 gap-8">
             {/* Product Column */}
             <div>
               <h3 className="font-semibold text-accent mb-4">Quick Links</h3>
@@ -66,26 +67,41 @@ const Footer = () => {
             </div>
 
             {/* Resources Column */}
-            <div>
-              <h3 className="font-semibold text-accent mb-4 font-heading">Contact Information</h3>
-              <ul className="space-y-3">
-                <li>
-                  <Link href="tel:+16148287446" className=" hover:text-accent text-background  transition-colors text-sm hover:underline">
-                    (614) 828-7446
 
+            <div>
+              <h3 className="font-semibold text-accent mb-4 font-heading">
+                Contact Information
+              </h3>
+              <ul className="space-y-3">
+                <li className="flex items-center gap-2">
+                  <Phone className="w-4 h-4 text-accent" />
+                  <Link
+                    href="tel:+16148287446"
+                    className="hover:text-accent text-background transition-colors text-sm hover:underline"
+                  >
+                    (614) 828-7446
                   </Link>
                 </li>
-                <li>
-                  <Link href="https://maps.app.goo.gl/Qq52KGt2RowgAUmz6" className=" hover:text-accent text-background  transition-colors text-sm hover:underline">
+                <li className="flex items-center gap-2">
+                  <MapPin className="w-4 h-4 text-accent" />
+                  <Link
+                    href="https://maps.app.goo.gl/Qq52KGt2RowgAUmz6"
+                    className="hover:text-accent text-background transition-colors text-sm hover:underline"
+                  >
                     Our Location
                   </Link>
                 </li>
-                <li>
-                  <Link href="mailto:Timelesshealingllc@gmail.com" className=" hover:text-accent text-background  transition-colors text-sm hover:underline">
+                <li className="flex items-center gap-2">
+                  <Mail className="w-4 h-4 text-accent shrink-0" />
+                  <Link
+                    href="mailto:Timelesshealingllc@gmail.com"
+                    className="hover:text-accent text-background transition-colors text-sm hover:underline break-words"
+                  >
                     Timelesshealingllc@gmail.com
                   </Link>
                 </li>
-                
+
+
               </ul>
             </div>
 
