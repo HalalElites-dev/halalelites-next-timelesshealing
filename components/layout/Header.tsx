@@ -83,7 +83,7 @@ export function Header() {
                 alt="Timeless Healing Logo"
                 width={1000}
                 height={50}
-                className="h-auto w-auto max-h-12 md:max-h-32 transition-all duration-300 [.is-scrolled_&]:max-h-12 [.is-scrolled_&]:md:max-h-12"
+                className="h-auto w-auto max-h-16 lg:max-h-32 transition-all duration-300 [.is-scrolled_&]:max-h-8 [.is-scrolled_&]:md:max-h-12"
               />
             </Link>
           </div>
@@ -101,7 +101,7 @@ export function Header() {
                     link: "tel:+16148287446",
                   },
                   { icon: MapPin, label: "LOCATION", value: "Columbus, OH" },
-                  { icon: Calendar, label: "HOURS", value: "Mon-Fri: 9am - 6pm" },
+                  // { icon: Calendar, label: "HOURS", value: "Mon-Fri: 9am - 6pm" },
                 ].map((item, i) => (
                   <div key={i} className="flex items-center space-x-2">
                     <item.icon className="text-accent h-6 w-6" />
@@ -128,11 +128,11 @@ export function Header() {
             </div>
 
             {/* Mobile Hours (below logo - now shows up to xl:) */}
-            <div className="xl:hidden text-center bg-accent overflow-hidden transition-all duration-300 max-h-10 py-2 [.is-scrolled_&]:max-h-0 [.is-scrolled_&]:py-0 [.is-scrolled_&]:opacity-0">
+            {/* <div className="xl:hidden text-center bg-accent overflow-hidden transition-all duration-300 max-h-10 py-2 [.is-scrolled_&]:max-h-0 [.is-scrolled_&]:py-0 [.is-scrolled_&]:opacity-0">
               <span className="text-accent-foreground text-sm block">
                 Mon-Fri: 9am - 6pm
               </span>
-            </div>
+            </div> */}
 
             {/* Main Nav Row */}
             <div className="flex items-center justify-between px-6 py-6 transition-all duration-300 [.is-scrolled_&]:py-3">
@@ -179,7 +179,6 @@ export function Header() {
         </div>
       </header>
 
-      {/* Mobile Menu Overlay - now shows up to xl: */}
       {isMobileMenuOpen && (
         <div 
           className="fixed inset-0 bg-black/50 z-50 xl:hidden"
@@ -187,9 +186,8 @@ export function Header() {
         />
       )}
 
-      {/* Mobile Menu - now shows up to xl: */}
       <div
-        className={`fixed top-0 right-0 h-full w-80 max-w-full bg-white z-50 transform transition-transform duration-300 ease-in-out xl:hidden ${
+        className={`fixed top-0 right-0 h-full w-full max-w-full bg-white z-50 transform transition-transform duration-300 ease-in-out xl:hidden ${
           isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -200,7 +198,7 @@ export function Header() {
            alt="Timeless Healing Logo"
            width={150}
            height={40}
-           className="h-10 w-auto object-contain"
+           className="h-20 w-auto object-contain"
          />
           <button
             onClick={() => setIsMobileMenuOpen(false)}
@@ -232,10 +230,10 @@ export function Header() {
               <MapPin className="h-5 w-5 text-primary" />
               <span className="text-muted-foreground">Columbus, OH</span>
             </div>
-            <div className="flex items-center space-x-3">
+            {/* <div className="flex items-center space-x-3">
               <Calendar className="h-5 w-5 text-primary" />
               <span className="text-muted-foreground">Mon-Fri: 9am - 6pm</span>
-            </div>
+            </div> */}
           </div>
 
           {/* Mobile CTA Button */}
