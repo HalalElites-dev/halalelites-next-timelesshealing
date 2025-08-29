@@ -44,7 +44,7 @@ const About = () => {
             </div> */}
             <div className='mt-8'>
               <Button variant='outline' size={'lg'} className='bg-primary text-white md:bg-transparent md:text-primary hover:text-background hover:bg-accent md:text-xl md:py-6 font-bold font-heading border-primary hover:border-accent'>
-                <Link href="tel:555-123-4567">Consult Us</Link>
+                <Link href="#contact">Contact Us</Link>
               </Button>
             </div>
           </div>

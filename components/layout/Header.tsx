@@ -5,7 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button } from "../ui/button"
 import { Navigation } from "./Navigation"
-import { Calendar, MapPin, Phone, X } from "lucide-react"
+import { MapPin, Phone, X } from "lucide-react"
 
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -128,7 +128,7 @@ export function Header() {
             </div>
 
             {/* Mobile Hours (below logo - now shows up to xl:) */}
-            {/* <div className="xl:hidden text-center bg-accent overflow-hidden transition-all duration-300 max-h-10 py-2 [.is-scrolled_&]:max-h-0 [.is-scrolled_&]:py-0 [.is-scrolled_&]:opacity-0">
+            {/* <div className="xl:hidden text-center bg-primary overflow-hidden transition-all duration-300 max-h-10 py-2 [.is-scrolled_&]:max-h-0 [.is-scrolled_&]:py-0 [.is-scrolled_&]:opacity-0">
               <span className="text-accent-foreground text-sm block">
                 Mon-Fri: 9am - 6pm
               </span>

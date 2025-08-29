@@ -6,7 +6,7 @@ export default function WhatIsHijamaPage() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="mt-60 px-6 ">
+      {/* <section className="mt-60 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl  font-bold text-foreground mb-6">What is Hijama?</h1>
           <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
@@ -14,9 +14,9 @@ export default function WhatIsHijamaPage() {
             wellness for over 1400 years.
           </p>
         </div>
-      </section>
+      </section> */}
 
-      <section className="py-20 px-6">
+      <section className="mt-50 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div>
