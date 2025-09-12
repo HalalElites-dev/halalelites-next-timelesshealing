@@ -50,7 +50,7 @@ const page = () => {
 
                     <h3 className="font-semibold text-foreground mb-2 mt-8">7. Governing Law</h3>
                     <p>
-                        These Terms of Service are governed by and construed in accordance with the laws of [Your State/Country]. Any disputes arising under these Terms shall be resolved in the courts of [Your State/Country].
+                        These Terms of Service are governed by and construed in accordance with the laws of Ohio. Any disputes arising under these Terms shall be resolved in the courts of Ohio.
                     </p>
 
                     <h3 className="font-semibold text-foreground mb-2 mt-8">8. Changes to Terms</h3>
