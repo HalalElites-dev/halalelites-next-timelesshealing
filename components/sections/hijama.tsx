@@ -42,7 +42,7 @@ const Hijama = () => {
             </li>
           </ul>
 
-          <Button variant='outline' size={'lg'} className='bg-transparent text-primary hover:text-background hover:bg-accent md:text-xl md:py-6 font-bold font-heading border-primary hover:border-accent'>
+          <Button  size={'lg'} className=' md:text-xl md:py-6 font-bold font-heading border-primary hover:border-accent'>
             <Link href="/hijama">Learn More</Link>
           </Button>
         </div>

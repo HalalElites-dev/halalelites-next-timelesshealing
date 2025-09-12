@@ -18,9 +18,7 @@ const Hero = () => {
                             <Button size={'lg'} className='bg-primary hover:text-primary-foreground text-background md:text-xl md:py-6 font-bold font-heading border border-transparent'>
                                 <Link href={HERO_CTA_LINK} target='_blank'>{HERO_CTA_TEXT}</Link>
                             </Button>
-                            <Button variant='outline' size={'lg'} className='bg-transparent text-primary hover:text-background hover:bg-accent md:text-xl md:py-6 font-bold font-heading border-primary hover:border-accent'>
-                                <Link href="#contact">Contact Us</Link>
-                            </Button>
+                            
                         </div>
                     </div>
 

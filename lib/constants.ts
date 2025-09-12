@@ -61,35 +61,13 @@ export const SERVICES_SUBTEXT =
 
 export const SERVICES = [
   {
-    title: "Basic Hijama",
-    description: "A traditional cupping therapy session to promote healing and well-being.",
-    price: "$75",
-    session: "60 minutes",
-    tags: ["Traditional", "Healing", "Wellness"],
-  },
-  {
-    title: "Premium Hijama",
-    description: "A comprehensive cupping therapy session with advanced techniques for enhanced healing.",
-    price: "$100",
-    session: "90 minutes",
-    tags: ["Advanced", "Comprehensive", "Enhanced"],
-  },
-  {
-    title: "Dry Cupping",
-    description: "A specialized cupping therapy technique that focuses on specific areas for targeted relief.",
-    price: "$50",
-    session: "60 minutes",
-    tags: ["Specialized", "Targeted", "Relief"],
-  },
-  {
-    title: "Consultation",
-    description: "Professional consultation to determine the best treatment plan for your specific needs.",
-    price: "$25",
-    session: "30 minutes",
-    tags: ["Assessment", "Planning", "Personalized"],
+    title: "Hijama Cupping Therapy",
+    description: "Traditional cupping therapy charged per cup used. Each cup is individually placed and treated according to your specific needs.",
+    price: "$20 per cup",
+    session: "Varies by treatment",
+    tags: ["Traditional", "Per Cup", "Customized"],
   },
 ]
-
 // hijama FAQ info
 export const FAQ_HEADING = "Frequently Asked Questions";
 export const FAQ =[
@@ -108,7 +86,10 @@ export const FAQ =[
   {
     question: "How often should I get Hijama?",
     answer: "The frequency of Hijama sessions depends on individual needs and health goals. Your practitioner will provide personalized recommendations."
-  }
+  },
+  {
+    question: "Does hijama break the wudu?",
+    answer: "It does not break the wudu if the amount of blood is little. However, if there is a lot of blood, it will break the wudu."}
 ]
 
 // Footer Info

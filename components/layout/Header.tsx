@@ -83,7 +83,7 @@ export function Header() {
                 alt="Timeless Healing Logo"
                 width={1000}
                 height={50}
-                className="h-auto w-auto max-h-16 lg:max-h-32 transition-all duration-300 [.is-scrolled_&]:max-h-8 [.is-scrolled_&]:md:max-h-12"
+                className="h-auto w-auto max-h-16 lg:max-h-32 transition-all duration-300 [.is-scrolled_&]:max-h-12 [.is-scrolled_&]:md:max-h-12"
               />
             </Link>
           </div>
@@ -100,7 +100,7 @@ export function Header() {
                     value: "(614) 828-7446",
                     link: "tel:+16148287446",
                   },
-                  { icon: MapPin, label: "LOCATION", value: "Columbus, OH" },
+                  { icon: MapPin, label: "LOCATION", link: "https://www.google.com/maps/place/3252+Cleveland+Ave,+Columbus,+OH+43224,+USA/@40.0340179,-82.965149,17z/data=!3m1!4b1!4m6!3m5!1s0x88388bc78a062e7d:0x14e6fbc272a49fdb!8m2!3d40.0340179!4d-82.9625687!16s%2Fg%2F11nh4fx_tz?entry=tts&g_ep=EgoyMDI1MDgxOS4wIPu8ASoASAFQAw%3D%3D&skid=f9389508-5ac5-44f2-a373-3305ef4ed4a8", value: "Columbus, OH" },
                   // { icon: Calendar, label: "HOURS", value: "Mon-Fri: 9am - 6pm" },
                 ].map((item, i) => (
                   <div key={i} className="flex items-center space-x-2">

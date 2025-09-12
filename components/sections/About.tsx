@@ -1,5 +1,5 @@
 import React from 'react'
-import { ABOUT_CONTENT, ABOUT_HEADING, ABOUT_SUBTEXT } from '@/lib/constants'
+import { ABOUT_CONTENT, ABOUT_HEADING, ABOUT_SUBTEXT, HERO_CTA_LINK, HERO_CTA_TEXT } from '@/lib/constants'
 import Image from 'next/image'
 import { Button } from '../ui/button'
 import Link from 'next/link'
@@ -43,9 +43,9 @@ const About = () => {
               </div>
             </div> */}
             <div className='mt-8'>
-              <Button variant='outline' size={'lg'} className='bg-primary text-white md:bg-transparent md:text-primary hover:text-background hover:bg-accent md:text-xl md:py-6 font-bold font-heading border-primary hover:border-accent'>
-                <Link href="#contact">Contact Us</Link>
-              </Button>
+               <Button size={'lg'} className='bg-primary hover:text-primary-foreground text-background md:text-xl md:py-6 font-bold font-heading border border-transparent'>
+                                <Link href={HERO_CTA_LINK} target='_blank'>{HERO_CTA_TEXT}</Link>
+                            </Button>
             </div>
           </div>
         </div>

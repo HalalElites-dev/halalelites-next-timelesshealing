@@ -1,4 +1,5 @@
 "use client"
+import Contact from "@/components/sections/Contact"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Heart, Shield, CheckCircle, Clock, BookOpen, Stethoscope, Calendar, Droplets } from "lucide-react"
 
@@ -263,6 +264,8 @@ export default function WhatIsHijamaPage() {
           </Card>
         </div>
       </section>
+       <Contact/>
     </div>
+   
   )
 }
