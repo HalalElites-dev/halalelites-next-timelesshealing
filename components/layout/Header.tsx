@@ -72,7 +72,7 @@ export function Header() {
     <>
       <header 
         ref={headerRef}
-        className="fixed top-0 left-0 right-0 z-40 w-full bg-background shadow-md transition-all duration-300 ease-out"
+        className="fixed top-0 left-0 right-0 z-40 w-full bg-white shadow-md transition-all duration-300 ease-out"
       >
         <div className="flex">
           {/* Logo Area */}

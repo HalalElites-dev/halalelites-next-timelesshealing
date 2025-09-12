@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Timeless Healing Hijama",
-  description: "Experience the art of Hijama with our expert practitioners.",
+  description: "Experience the art of Hijama with our expert practitioners in Cleveland, Ohio.",
 };
 
 export default function RootLayout({
