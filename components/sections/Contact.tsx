@@ -33,7 +33,7 @@ const Contact = () => {
           </h2>
           <p className="text-xl mb-8 ml-4">{CONTACT_SUBTEXT}</p>
 
-          <div className="space-y-6 text-left p-6 mx-auto">
+          <div className="space-y-6 text-left p-4 md:p-6 mx-auto">
             {/* Email */}
             <div className="flex items-start">
               <Mail className="w-6 h-6 text-white mt-1" />
