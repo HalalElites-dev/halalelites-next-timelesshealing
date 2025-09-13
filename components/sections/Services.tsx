@@ -79,7 +79,7 @@ const Services = () => {
                     {/* Active indicator */}
                     {activeStep === i && (
                       <div className="absolute right-4 top-1/2 transform -translate-y-1/2">
-                        <div className="w-3 h-3 bg-accent rounded-full animate-pulse"></div>
+                        <div className="md:w-3 md:h-3 bg-accent rounded-full animate-pulse"></div>
                       </div>
                     )}
                   </div>
@@ -129,7 +129,7 @@ const Services = () => {
                   </div>
                   
                   {/* CTA Button with animation */}
-                  <Button className="w-full bg-primary hover:from-primary/90 hover:to-accent/90 text-white py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform">
+                  <Button className="w-full bg-primary hover:from-primary/90 hover:to-accent/90 text-white py-4 rounded-xl font-semibold text-lg shadow-lg transition-all duration-300 transform">
                     <Link href="https://calendly.com/timelesshealingllc/30min" target="_blank" className="flex w-full h-full items-center justify-center gap-2">
                       Book Your Healing Session
                       
